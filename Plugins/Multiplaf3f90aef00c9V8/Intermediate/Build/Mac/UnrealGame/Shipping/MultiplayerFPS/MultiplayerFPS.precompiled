@@ -1,0 +1,24 @@
+{
+	"OutputFiles": [
+		"../../../arm64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.1.cpp.o",
+		"../../../arm64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.2.cpp.o",
+		"../../../arm64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.3.cpp.o",
+		"../../../arm64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.4.cpp.o",
+		"../../../arm64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.5.cpp.o",
+		"../../../arm64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.1.cpp.o",
+		"../../../arm64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.2.cpp.o",
+		"../../../arm64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.3.cpp.o",
+		"../../../arm64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.4.cpp.o",
+		"../../../arm64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.5.cpp.o",
+		"../../../x64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.1.cpp.o",
+		"../../../x64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.2.cpp.o",
+		"../../../x64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.3.cpp.o",
+		"../../../x64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.4.cpp.o",
+		"../../../x64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.5.cpp.o",
+		"../../../x64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.1.cpp.o",
+		"../../../x64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.2.cpp.o",
+		"../../../x64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.3.cpp.o",
+		"../../../x64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.4.cpp.o",
+		"../../../x64/UnrealGame/Shipping/MultiplayerFPS/Module.MultiplayerFPS.5.cpp.o"
+	]
+}

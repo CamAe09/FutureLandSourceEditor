@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.5.8",
+	"FriendlyName": "Multiplayer FPS",
+	"Description": "This plugin allows you to create a multiplayer first person shooter with ease.",
+	"Category": "Multiplayer FPS",
+	"CreatedBy": "vster",
+	"CreatedByURL": "https://youtube.com/@vster7885?si=g4RrzzxSwmtzC09e",
+	"DocsURL": "https://youtube.com/playlist?list=PL5RfhyEEVNE5RVQ7L5n80hb6jE6x96UHQ&si=gwhyx_9lN-daAvbq",
+	"MarketplaceURL": "https://www.fab.com/listings/708e1500-4218-4c99-ab20-ab241e163edf",
+	"SupportURL": "",
+	"EngineVersion": "5.5.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "MultiplayerFPS",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"LinuxArm64",
+				"Mac"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		}
+	]
+}

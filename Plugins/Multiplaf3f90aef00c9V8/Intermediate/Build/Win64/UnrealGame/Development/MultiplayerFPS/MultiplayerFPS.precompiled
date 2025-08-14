@@ -1,0 +1,10 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Development\\MultiplayerFPS\\Module.MultiplayerFPS.1.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\MultiplayerFPS\\Module.MultiplayerFPS.2.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\MultiplayerFPS\\Module.MultiplayerFPS.3.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\MultiplayerFPS\\Module.MultiplayerFPS.4.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\MultiplayerFPS\\Module.MultiplayerFPS.5.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\MultiplayerFPS\\Module.MultiplayerFPS.6.cpp.obj"
+	]
+}
