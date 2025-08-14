@@ -1,0 +1,39 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\varesteditor\\module.varesteditor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\intermediate\\build\\win64\\x64\\futurelandgameeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\varesteditor\\definitions.varesteditor.h",
+            "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\unrealeditor\\inc\\varesteditor\\uht\\varesteditor.init.gen.cpp",
+            "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\unrealeditor\\inc\\varesteditor\\uht\\varest_breakjson.gen.cpp",
+            "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\source\\varesteditor\\public\\varest_breakjson.h",
+            "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\unrealeditor\\inc\\varesteditor\\uht\\varest_breakjson.generated.h",
+            "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\varesteditor\\permoduleinline.gen.cpp",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl",
+            "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\source\\varesteditor\\private\\varesteditor.cpp",
+            "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\source\\varesteditor\\public\\varesteditor.h",
+            "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\source\\varesteditor\\private\\varest_breakjson.cpp",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\editor\\blueprintgraph\\public\\blueprintactiondatabaseregistrar.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\editor\\blueprintgraph\\public\\blueprintactiondatabase.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\editor\\blueprintgraph\\public\\blueprintnodespawner.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\blueprintgraph\\uht\\blueprintnodespawner.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\editor\\unrealed\\public\\edgraphutilities.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\editor\\unrealed\\public\\editorcategoryutils.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\editor\\kismetcompiler\\public\\kismetcompiler.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\editor\\kismetcompiler\\public\\bpterminal.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\editor\\kismetcompiler\\public\\edgraphcompilerutilities.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\editor\\blueprintgraph\\classes\\k2node_event.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\editor\\blueprintgraph\\classes\\k2node_eventnodeinterface.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\blueprintgraph\\uht\\k2node_eventnodeinterface.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\editor\\kismetcompiler\\public\\kismetcompilermisc.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\editor\\kismetcompiler\\public\\blueprintcompiledstatement.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\blueprintgraph\\uht\\k2node_event.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\editor\\kismetcompiler\\public\\kismetcompiledfunctioncontext.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\editor\\kismetcompiler\\public\\kismetcastingutils.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -34,15 +34,23 @@ struct Z_Construct_UClass_UVaRestSettings_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bExtendedLog_MetaData[] = {
 		{ "Category", "VaRest" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** You can disable request content logging to avoid security vulnerability */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "You can disable request content logging to avoid security vulnerability" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUseChunkedParser_MetaData[] = {
 		{ "Category", "VaRest" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Use custom chunked parses (best for memory, but has issues with hex-encoded utf-8) */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use custom chunked parses (best for memory, but has issues with hex-encoded utf-8)" },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_bExtendedLog_SetBit(void* Obj);
@@ -108,14 +116,14 @@ UVaRestSettings::~UVaRestSettings() {}
 // End Class UVaRestSettings
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSettings_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestSettings_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UVaRestSettings, UVaRestSettings::StaticClass, TEXT("UVaRestSettings"), &Z_Registration_Info_UClass_UVaRestSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVaRestSettings), 499066830U) },
+		{ Z_Construct_UClass_UVaRestSettings, UVaRestSettings::StaticClass, TEXT("UVaRestSettings"), &Z_Registration_Info_UClass_UVaRestSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVaRestSettings), 3703990974U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSettings_h_3983335394(TEXT("/Script/VaRest"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSettings_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestSettings_h_764335774(TEXT("/Script/VaRest"),
+	Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestSettings_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

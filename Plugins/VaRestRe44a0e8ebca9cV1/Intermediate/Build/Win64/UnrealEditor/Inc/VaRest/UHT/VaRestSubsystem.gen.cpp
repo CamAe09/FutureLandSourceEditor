@@ -147,9 +147,13 @@ struct Z_Construct_UFunction_UVaRestSubsystem_CallURL_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Utility" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Easy way to process http requests */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Easy way to process http requests" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_URL_MetaData[] = {
 		{ "NativeConst", "" },
@@ -170,9 +174,9 @@ struct Z_Construct_UFunction_UVaRestSubsystem_CallURL_Statics
 };
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UVaRestSubsystem_CallURL_Statics::NewProp_URL = { "URL", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestSubsystem_eventCallURL_Parms, URL), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_URL_MetaData), NewProp_URL_MetaData) };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UVaRestSubsystem_CallURL_Statics::NewProp_Verb_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestSubsystem_CallURL_Statics::NewProp_Verb = { "Verb", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestSubsystem_eventCallURL_Parms, Verb), Z_Construct_UEnum_VaRest_EVaRestRequestVerb, METADATA_PARAMS(0, nullptr) }; // 343738194
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestSubsystem_CallURL_Statics::NewProp_Verb = { "Verb", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestSubsystem_eventCallURL_Parms, Verb), Z_Construct_UEnum_VaRest_EVaRestRequestVerb, METADATA_PARAMS(0, nullptr) }; // 2024740045
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UVaRestSubsystem_CallURL_Statics::NewProp_ContentType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestSubsystem_CallURL_Statics::NewProp_ContentType = { "ContentType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestSubsystem_eventCallURL_Parms, ContentType), Z_Construct_UEnum_VaRest_EVaRestRequestContentType, METADATA_PARAMS(0, nullptr) }; // 687765845
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestSubsystem_CallURL_Statics::NewProp_ContentType = { "ContentType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestSubsystem_eventCallURL_Parms, ContentType), Z_Construct_UEnum_VaRest_EVaRestRequestContentType, METADATA_PARAMS(0, nullptr) }; // 383282819
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UVaRestSubsystem_CallURL_Statics::NewProp_VaRestJson = { "VaRestJson", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestSubsystem_eventCallURL_Parms, VaRestJson), Z_Construct_UClass_UVaRestJsonObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FDelegatePropertyParams Z_Construct_UFunction_UVaRestSubsystem_CallURL_Statics::NewProp_Callback = { "Callback", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Delegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestSubsystem_eventCallURL_Parms, Callback), Z_Construct_UDelegateFunction_VaRest_VaRestCallDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Callback_MetaData), NewProp_Callback_MetaData) }; // 2106765340
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVaRestSubsystem_CallURL_Statics::PropPointers[] = {
@@ -221,10 +225,14 @@ struct Z_Construct_UFunction_UVaRestSubsystem_ConstructJsonValueArray_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Subsystem" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Create new Json Array value */" },
+#endif
 		{ "DisplayName", "Construct Json Array Value" },
 		{ "ModuleRelativePath", "Public/VaRestSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Create new Json Array value" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InArray_MetaData[] = {
 		{ "NativeConst", "" },
@@ -277,10 +285,14 @@ struct Z_Construct_UFunction_UVaRestSubsystem_ConstructJsonValueBool_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Subsystem" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Create new Json Bool value */" },
+#endif
 		{ "DisplayName", "Construct Json Bool Value" },
 		{ "ModuleRelativePath", "Public/VaRestSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Create new Json Bool value" },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_InValue_SetBit(void* Obj);
@@ -332,10 +344,14 @@ struct Z_Construct_UFunction_UVaRestSubsystem_ConstructJsonValueNumber_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Subsystem" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Create new Json Number value\n\x09 * Attn.!! float used instead of double to make the function blueprintable! */" },
+#endif
 		{ "DisplayName", "Construct Json Number Value" },
 		{ "ModuleRelativePath", "Public/VaRestSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Create new Json Number value\nAttn.!! float used instead of double to make the function blueprintable!" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_Number;
@@ -382,10 +398,14 @@ struct Z_Construct_UFunction_UVaRestSubsystem_ConstructJsonValueObject_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Subsystem" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Create new Json Object value */" },
+#endif
 		{ "DisplayName", "Construct Json Object Value" },
 		{ "ModuleRelativePath", "Public/VaRestSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Create new Json Object value" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_JsonObject;
@@ -432,10 +452,14 @@ struct Z_Construct_UFunction_UVaRestSubsystem_ConstructJsonValueString_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Subsystem" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Create new Json String value */" },
+#endif
 		{ "DisplayName", "Construct Json String Value" },
 		{ "ModuleRelativePath", "Public/VaRestSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Create new Json String value" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StringValue_MetaData[] = {
 		{ "NativeConst", "" },
@@ -484,10 +508,14 @@ struct Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestJsonObject_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Subsystem" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Create new Json object */" },
+#endif
 		{ "DisplayName", "Construct Json Object" },
 		{ "ModuleRelativePath", "Public/VaRestSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Create new Json object" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
@@ -529,10 +557,14 @@ struct Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestRequest_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Subsystem" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Creates new request (totally empty) */" },
+#endif
 		{ "DisplayName", "Construct Json Request (Empty)" },
 		{ "ModuleRelativePath", "Public/VaRestSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Creates new request (totally empty)" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
@@ -576,10 +608,14 @@ struct Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestRequestExt_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Subsystem" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Creates new request with defined verb and content type */" },
+#endif
 		{ "DisplayName", "Construct Json Request" },
 		{ "ModuleRelativePath", "Public/VaRestSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Creates new request with defined verb and content type" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FBytePropertyParams NewProp_Verb_Underlying;
@@ -591,9 +627,9 @@ struct Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestRequestExt_Statics
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestRequestExt_Statics::NewProp_Verb_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestRequestExt_Statics::NewProp_Verb = { "Verb", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestSubsystem_eventConstructVaRestRequestExt_Parms, Verb), Z_Construct_UEnum_VaRest_EVaRestRequestVerb, METADATA_PARAMS(0, nullptr) }; // 343738194
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestRequestExt_Statics::NewProp_Verb = { "Verb", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestSubsystem_eventConstructVaRestRequestExt_Parms, Verb), Z_Construct_UEnum_VaRest_EVaRestRequestVerb, METADATA_PARAMS(0, nullptr) }; // 2024740045
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestRequestExt_Statics::NewProp_ContentType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestRequestExt_Statics::NewProp_ContentType = { "ContentType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestSubsystem_eventConstructVaRestRequestExt_Parms, ContentType), Z_Construct_UEnum_VaRest_EVaRestRequestContentType, METADATA_PARAMS(0, nullptr) }; // 687765845
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestRequestExt_Statics::NewProp_ContentType = { "ContentType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestSubsystem_eventConstructVaRestRequestExt_Parms, ContentType), Z_Construct_UEnum_VaRest_EVaRestRequestContentType, METADATA_PARAMS(0, nullptr) }; // 383282819
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestRequestExt_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestSubsystem_eventConstructVaRestRequestExt_Parms, ReturnValue), Z_Construct_UClass_UVaRestRequestJSON_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestRequestExt_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestRequestExt_Statics::NewProp_Verb_Underlying,
@@ -636,9 +672,13 @@ struct Z_Construct_UFunction_UVaRestSubsystem_DecodeJsonObject_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Subsystem" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Construct Json object from string */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Construct Json object from string" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_JsonString_MetaData[] = {
 		{ "NativeConst", "" },
@@ -688,9 +728,13 @@ struct Z_Construct_UFunction_UVaRestSubsystem_DecodeJsonValue_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Subsystem" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Construct Json value from string */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Construct Json value from string" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_JsonString_MetaData[] = {
 		{ "NativeConst", "" },
@@ -741,10 +785,14 @@ struct Z_Construct_UFunction_UVaRestSubsystem_LoadJsonFromFile_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Utility" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Load JSON from formatted text file\n\x09 * @param    bIsRelativeToContentDir    if set to 'false' path is treated as absolute\n\x09 */" },
+#endif
 		{ "CPP_Default_bIsRelativeToContentDir", "true" },
 		{ "ModuleRelativePath", "Public/VaRestSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Load JSON from formatted text file\n@param    bIsRelativeToContentDir    if set to 'false' path is treated as absolute" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Path_MetaData[] = {
 		{ "NativeConst", "" },
@@ -804,9 +852,13 @@ struct Z_Construct_UFunction_UVaRestSubsystem_StaticConstructVaRestJsonObject_St
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Create new Json object (static one for MakeJson node, hack for #293) */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Create new Json object (static one for MakeJson node, hack for #293)" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
@@ -881,19 +933,19 @@ struct Z_Construct_UClass_UVaRestSubsystem_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UVaRestSubsystem_CallURL, "CallURL" }, // 2905477887
-		{ &Z_Construct_UFunction_UVaRestSubsystem_ConstructJsonValueArray, "ConstructJsonValueArray" }, // 4267670345
-		{ &Z_Construct_UFunction_UVaRestSubsystem_ConstructJsonValueBool, "ConstructJsonValueBool" }, // 842656081
-		{ &Z_Construct_UFunction_UVaRestSubsystem_ConstructJsonValueNumber, "ConstructJsonValueNumber" }, // 1222940493
-		{ &Z_Construct_UFunction_UVaRestSubsystem_ConstructJsonValueObject, "ConstructJsonValueObject" }, // 3690390857
-		{ &Z_Construct_UFunction_UVaRestSubsystem_ConstructJsonValueString, "ConstructJsonValueString" }, // 2740729398
-		{ &Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestJsonObject, "ConstructVaRestJsonObject" }, // 3797045866
-		{ &Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestRequest, "ConstructVaRestRequest" }, // 2104050452
-		{ &Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestRequestExt, "ConstructVaRestRequestExt" }, // 624989988
-		{ &Z_Construct_UFunction_UVaRestSubsystem_DecodeJsonObject, "DecodeJsonObject" }, // 2500495590
-		{ &Z_Construct_UFunction_UVaRestSubsystem_DecodeJsonValue, "DecodeJsonValue" }, // 1666451360
-		{ &Z_Construct_UFunction_UVaRestSubsystem_LoadJsonFromFile, "LoadJsonFromFile" }, // 4001916857
-		{ &Z_Construct_UFunction_UVaRestSubsystem_StaticConstructVaRestJsonObject, "StaticConstructVaRestJsonObject" }, // 2435088359
+		{ &Z_Construct_UFunction_UVaRestSubsystem_CallURL, "CallURL" }, // 1178065776
+		{ &Z_Construct_UFunction_UVaRestSubsystem_ConstructJsonValueArray, "ConstructJsonValueArray" }, // 358160961
+		{ &Z_Construct_UFunction_UVaRestSubsystem_ConstructJsonValueBool, "ConstructJsonValueBool" }, // 2718196133
+		{ &Z_Construct_UFunction_UVaRestSubsystem_ConstructJsonValueNumber, "ConstructJsonValueNumber" }, // 1703465642
+		{ &Z_Construct_UFunction_UVaRestSubsystem_ConstructJsonValueObject, "ConstructJsonValueObject" }, // 4193791549
+		{ &Z_Construct_UFunction_UVaRestSubsystem_ConstructJsonValueString, "ConstructJsonValueString" }, // 3403727782
+		{ &Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestJsonObject, "ConstructVaRestJsonObject" }, // 3988686408
+		{ &Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestRequest, "ConstructVaRestRequest" }, // 4097439876
+		{ &Z_Construct_UFunction_UVaRestSubsystem_ConstructVaRestRequestExt, "ConstructVaRestRequestExt" }, // 3943733416
+		{ &Z_Construct_UFunction_UVaRestSubsystem_DecodeJsonObject, "DecodeJsonObject" }, // 290802777
+		{ &Z_Construct_UFunction_UVaRestSubsystem_DecodeJsonValue, "DecodeJsonValue" }, // 1852164700
+		{ &Z_Construct_UFunction_UVaRestSubsystem_LoadJsonFromFile, "LoadJsonFromFile" }, // 3404504098
+		{ &Z_Construct_UFunction_UVaRestSubsystem_StaticConstructVaRestJsonObject, "StaticConstructVaRestJsonObject" }, // 3429104083
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -947,18 +999,18 @@ UVaRestSubsystem::~UVaRestSubsystem() {}
 // End Class UVaRestSubsystem
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestSubsystem_h_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
 		{ FVaRestCallResponse::StaticStruct, Z_Construct_UScriptStruct_FVaRestCallResponse_Statics::NewStructOps, TEXT("VaRestCallResponse"), &Z_Registration_Info_UScriptStruct_VaRestCallResponse, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVaRestCallResponse), 1673787008U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UVaRestSubsystem, UVaRestSubsystem::StaticClass, TEXT("UVaRestSubsystem"), &Z_Registration_Info_UClass_UVaRestSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVaRestSubsystem), 2481641983U) },
+		{ Z_Construct_UClass_UVaRestSubsystem, UVaRestSubsystem::StaticClass, TEXT("UVaRestSubsystem"), &Z_Registration_Info_UClass_UVaRestSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVaRestSubsystem), 3588902140U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_1582774153(TEXT("/Script/VaRest"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_Statics::ClassInfo),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_Statics::ScriptStructInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestSubsystem_h_2050484255(TEXT("/Script/VaRest"),
+	Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestSubsystem_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestSubsystem_h_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestSubsystem_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestSubsystem_h_Statics::ScriptStructInfo),
 	nullptr, 0);
 // End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

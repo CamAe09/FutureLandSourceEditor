@@ -39,14 +39,18 @@ struct Z_Construct_UEnum_VaRest_EVaJson_Statics
 		{ "Array.Name", "EVaJson::Array" },
 		{ "BlueprintType", "true" },
 		{ "Boolean.Name", "EVaJson::Boolean" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Represents all the types a Json Value can be.\n */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonValue.h" },
 		{ "None.Name", "EVaJson::None" },
 		{ "Null.Name", "EVaJson::Null" },
 		{ "Number.Name", "EVaJson::Number" },
 		{ "Object.Name", "EVaJson::Object" },
 		{ "String.Name", "EVaJson::String" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Represents all the types a Json Value can be." },
+#endif
 	};
 #endif // WITH_METADATA
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
@@ -92,9 +96,13 @@ struct Z_Construct_UFunction_UVaRestJsonValue_AsArray_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns this value as an array, throwing an error if this is not an Json Array */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonValue.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns this value as an array, throwing an error if this is not an Json Array" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue_Inner;
@@ -139,9 +147,13 @@ struct Z_Construct_UFunction_UVaRestJsonValue_AsBool_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns this value as a boolean, throwing an error if this is not an Json Bool */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonValue.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns this value as a boolean, throwing an error if this is not an Json Bool" },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_ReturnValue_SetBit(void* Obj);
@@ -188,9 +200,13 @@ struct Z_Construct_UFunction_UVaRestJsonValue_AsInt32_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns this value as a int32, throwing an error if this is not an Json Number */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonValue.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns this value as a int32, throwing an error if this is not an Json Number" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
@@ -232,9 +248,13 @@ struct Z_Construct_UFunction_UVaRestJsonValue_AsInt64_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns this value as a int64, throwing an error if this is not an Json Number */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonValue.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns this value as a int64, throwing an error if this is not an Json Number" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FInt64PropertyParams NewProp_ReturnValue;
@@ -276,9 +296,13 @@ struct Z_Construct_UFunction_UVaRestJsonValue_AsNumber_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns this value as a double, throwing an error if this is not an Json Number\n\x09 * Attn.!! float used instead of double to make the function blueprintable! */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonValue.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns this value as a double, throwing an error if this is not an Json Number\nAttn.!! float used instead of double to make the function blueprintable!" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
@@ -320,9 +344,13 @@ struct Z_Construct_UFunction_UVaRestJsonValue_AsObject_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns this value as an object, throwing an error if this is not an Json Object */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonValue.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns this value as an object, throwing an error if this is not an Json Object" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
@@ -364,9 +392,13 @@ struct Z_Construct_UFunction_UVaRestJsonValue_AsString_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns this value as a string, throwing an error if this is not an Json String */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonValue.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns this value as a string, throwing an error if this is not an Json String" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
@@ -408,9 +440,13 @@ struct Z_Construct_UFunction_UVaRestJsonValue_GetType_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get type of Json value (Enum) */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonValue.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get type of Json value (Enum)" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FBytePropertyParams NewProp_ReturnValue_Underlying;
@@ -419,7 +455,7 @@ struct Z_Construct_UFunction_UVaRestJsonValue_GetType_Statics
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UVaRestJsonValue_GetType_Statics::NewProp_ReturnValue_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestJsonValue_GetType_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestJsonValue_eventGetType_Parms, ReturnValue), Z_Construct_UEnum_VaRest_EVaJson, METADATA_PARAMS(0, nullptr) }; // 1005457045
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestJsonValue_GetType_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestJsonValue_eventGetType_Parms, ReturnValue), Z_Construct_UEnum_VaRest_EVaJson, METADATA_PARAMS(0, nullptr) }; // 1520555479
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVaRestJsonValue_GetType_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVaRestJsonValue_GetType_Statics::NewProp_ReturnValue_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVaRestJsonValue_GetType_Statics::NewProp_ReturnValue,
@@ -455,9 +491,13 @@ struct Z_Construct_UFunction_UVaRestJsonValue_GetTypeString_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get type of Json value (String) */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonValue.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get type of Json value (String)" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
@@ -499,9 +539,13 @@ struct Z_Construct_UFunction_UVaRestJsonValue_IsNull_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns true if this value is a 'null' */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonValue.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns true if this value is a 'null'" },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_ReturnValue_SetBit(void* Obj);
@@ -544,9 +588,13 @@ struct Z_Construct_UFunction_UVaRestJsonValue_Reset_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Reset all internal data */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonValue.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Reset all internal data" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -599,26 +647,30 @@ struct Z_Construct_UClass_UVaRestJsonValue_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Blueprintable FJsonValue wrapper\n */" },
+#endif
 		{ "IncludePath", "VaRestJsonValue.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/VaRestJsonValue.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Blueprintable FJsonValue wrapper" },
+#endif
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UVaRestJsonValue_AsArray, "AsArray" }, // 975419652
-		{ &Z_Construct_UFunction_UVaRestJsonValue_AsBool, "AsBool" }, // 1890313304
-		{ &Z_Construct_UFunction_UVaRestJsonValue_AsInt32, "AsInt32" }, // 794623055
-		{ &Z_Construct_UFunction_UVaRestJsonValue_AsInt64, "AsInt64" }, // 3076991472
-		{ &Z_Construct_UFunction_UVaRestJsonValue_AsNumber, "AsNumber" }, // 1780041790
-		{ &Z_Construct_UFunction_UVaRestJsonValue_AsObject, "AsObject" }, // 2624578256
-		{ &Z_Construct_UFunction_UVaRestJsonValue_AsString, "AsString" }, // 1842237097
-		{ &Z_Construct_UFunction_UVaRestJsonValue_GetType, "GetType" }, // 2590340771
-		{ &Z_Construct_UFunction_UVaRestJsonValue_GetTypeString, "GetTypeString" }, // 1234257397
-		{ &Z_Construct_UFunction_UVaRestJsonValue_IsNull, "IsNull" }, // 3846220490
-		{ &Z_Construct_UFunction_UVaRestJsonValue_Reset, "Reset" }, // 2535871344
+		{ &Z_Construct_UFunction_UVaRestJsonValue_AsArray, "AsArray" }, // 3813267254
+		{ &Z_Construct_UFunction_UVaRestJsonValue_AsBool, "AsBool" }, // 2124902277
+		{ &Z_Construct_UFunction_UVaRestJsonValue_AsInt32, "AsInt32" }, // 3516809608
+		{ &Z_Construct_UFunction_UVaRestJsonValue_AsInt64, "AsInt64" }, // 3535396178
+		{ &Z_Construct_UFunction_UVaRestJsonValue_AsNumber, "AsNumber" }, // 2136573059
+		{ &Z_Construct_UFunction_UVaRestJsonValue_AsObject, "AsObject" }, // 5826402
+		{ &Z_Construct_UFunction_UVaRestJsonValue_AsString, "AsString" }, // 4293894772
+		{ &Z_Construct_UFunction_UVaRestJsonValue_GetType, "GetType" }, // 2600025191
+		{ &Z_Construct_UFunction_UVaRestJsonValue_GetTypeString, "GetTypeString" }, // 1504554689
+		{ &Z_Construct_UFunction_UVaRestJsonValue_IsNull, "IsNull" }, // 302166949
+		{ &Z_Construct_UFunction_UVaRestJsonValue_Reset, "Reset" }, // 2258316620
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -663,18 +715,18 @@ UVaRestJsonValue::~UVaRestJsonValue() {}
 // End Class UVaRestJsonValue
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestJsonValue_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestJsonValue_h_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ EVaJson_StaticEnum, TEXT("EVaJson"), &Z_Registration_Info_UEnum_EVaJson, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1005457045U) },
+		{ EVaJson_StaticEnum, TEXT("EVaJson"), &Z_Registration_Info_UEnum_EVaJson, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1520555479U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UVaRestJsonValue, UVaRestJsonValue::StaticClass, TEXT("UVaRestJsonValue"), &Z_Registration_Info_UClass_UVaRestJsonValue, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVaRestJsonValue), 202027140U) },
+		{ Z_Construct_UClass_UVaRestJsonValue, UVaRestJsonValue::StaticClass, TEXT("UVaRestJsonValue"), &Z_Registration_Info_UClass_UVaRestJsonValue, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVaRestJsonValue), 4032633412U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestJsonValue_h_1018247466(TEXT("/Script/VaRest"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestJsonValue_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestJsonValue_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestJsonValue_h_1438863918(TEXT("/Script/VaRest"),
+	Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestJsonValue_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestJsonValue_h_Statics::ClassInfo),
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestJsonValue_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestJsonValue_h_Statics::EnumInfo));
+	Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestJsonValue_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestJsonValue_h_Statics::EnumInfo));
 // End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

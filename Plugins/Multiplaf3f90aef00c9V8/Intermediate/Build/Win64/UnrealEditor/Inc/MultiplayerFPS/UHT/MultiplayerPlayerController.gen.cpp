@@ -195,7 +195,9 @@ struct Z_Construct_UFunction_AMultiplayerPlayerController_CreateUIWidget_Statics
 		{ "CPP_Default_WidgetToRemove", "None" },
 		{ "CPP_Default_ZOrder", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only pause offline, does not work in multiplayer" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WidgetToRemove_MetaData[] = {
 		{ "EditInline", "true" },
@@ -680,7 +682,9 @@ struct Z_Construct_UFunction_AMultiplayerPlayerController_GetControlledPawn_Stat
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Functions" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is exactly the same as the engine function, the reason it is BlueprintCallable is because you can override this function" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
@@ -1317,7 +1321,9 @@ struct Z_Construct_UFunction_AMultiplayerPlayerController_PossessPawn_Statics
 		{ "CPP_Default_NewVelocity", "" },
 		{ "CPP_Default_UsePlayerPawnChoice", "false" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Velocity options only apply to characters, UsePlayerPawnChoice will override NewPawnToSpawn and NewPawn and only applies if ChooseCharacterOnSpawn is not 0, keep velocity won't work if you have ChooseCharacterOnSpawn not at 0" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FClassPropertyParams NewProp_NewPawnToSpawn;
@@ -1699,7 +1705,9 @@ struct Z_Construct_UFunction_AMultiplayerPlayerController_ServerPossessPawn_Stat
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Functions" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Velocity options only apply to characters, UsePlayerPawnChoice will override NewPawnToSpawn and NewPawn and only applies if ChooseCharacterOnSpawn is not 0, keep velocity won't work if you have ChooseCharacterOnSpawn not at 0" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FClassPropertyParams NewProp_NewPawnToSpawn;
@@ -2947,27 +2955,37 @@ struct Z_Construct_UClass_AMultiplayerPlayerController_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HUDClass_MetaData[] = {
 		{ "Category", "UI" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is used to have a reference to the HUD separate from the rest of the UI" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DeathScreenClass_MetaData[] = {
 		{ "Category", "UI" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is used to have a reference to the DeathScreen separate from the rest of the UI" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WeaponChoices_MetaData[] = {
 		{ "Category", "Weapons" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This will be used when spawning the player to give them their loadout" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AllWeaponClasses_MetaData[] = {
 		{ "Category", "Weapons" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is all the weapons in the game, make sure to add all the playable weapons to this array variable" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AllWeaponClassesForUI_MetaData[] = {
 		{ "Category", "Weapons" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is all the weapons in the game, make sure to add all the playable weapons to this array variable, this is only for a loadout menu" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldOfView_MetaData[] = {
 		{ "Category", "Settings" },
@@ -2977,22 +2995,30 @@ struct Z_Construct_UClass_AMultiplayerPlayerController_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MouseDefaultSensitivityX_MetaData[] = {
 		{ "Category", "Settings|Keyboard And Mouse" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Mouse sensitivity on the X axis when not aiming" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MouseAimingSensitivityX_MetaData[] = {
 		{ "Category", "Settings|Keyboard And Mouse" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Mouse sensitivity on the X axis when aiming, only applies if UseAimSensitivityMultipler is false" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MouseDefaultSensitivityY_MetaData[] = {
 		{ "Category", "Settings|Keyboard And Mouse" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Mouse sensitivity on the Y axis when not aiming" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MouseAimingSensitivityY_MetaData[] = {
 		{ "Category", "Settings|Keyboard And Mouse" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Mouse sensitivity on the Y axis when aiming, only applies if UseAimSensitivityMultipler is false" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MouseAimingSensitivityMultiplier_MetaData[] = {
 		{ "Category", "Settings|Keyboard And Mouse" },
@@ -3001,22 +3027,30 @@ struct Z_Construct_UClass_AMultiplayerPlayerController_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GamepadDefaultSensitivityX_MetaData[] = {
 		{ "Category", "Settings|Gamepad" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Gamepad sensitivity on the X axis when not aiming" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GamepadAimingSensitivityX_MetaData[] = {
 		{ "Category", "Settings|Gamepad" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Gamepad sensitivity on the X axis when aiming, only applies if UseAimSensitivityMultipler is false" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GamepadDefaultSensitivityY_MetaData[] = {
 		{ "Category", "Settings|Gamepad" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Gamepad sensitivity on the Y axis when not aiming" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GamepadAimingSensitivityY_MetaData[] = {
 		{ "Category", "Settings|Gamepad" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Gamepad sensitivity on the Y axis when aiming, only applies if UseAimSensitivityMultipler is false" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GamepadAimingSensitivityMultiplier_MetaData[] = {
 		{ "Category", "Settings|Gamepad" },
@@ -3025,7 +3059,9 @@ struct Z_Construct_UClass_AMultiplayerPlayerController_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ControllerVibration_MetaData[] = {
 		{ "Category", "Settings|Gamepad" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Do not set this variable directly, instead use the SetControllerVibration function" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UseAimSensitivityMultipler_MetaData[] = {
 		{ "Category", "Settings" },
@@ -3042,14 +3078,18 @@ struct Z_Construct_UClass_AMultiplayerPlayerController_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CanSprint_MetaData[] = {
 		{ "Category", "Settings" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is a global setting that will apply to the player even after respawns, the CanSprint variable in the MultiplayerCharacter is for specific situations, for example the player gets stunned and can't sprint, you would set that in the character" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ToggleSprint_MetaData[] = {
 		{ "Category", "Settings" },
 		{ "ClampMax", "2" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "0 = Hold to sprint, 1 = Tap to go to sprint (tapping again will not stop sprinting), 2 = Tap to sprint and tap again to stop sprinting" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PlayerIndex_MetaData[] = {
 		{ "Category", "Variables" },
@@ -3058,17 +3098,23 @@ struct Z_Construct_UClass_AMultiplayerPlayerController_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UsingThirdPerson_MetaData[] = {
 		{ "Category", "Perspective" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Set this to true if you want third person to be default" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UsingThirdPersonLeftShoulder_MetaData[] = {
 		{ "Category", "Perspective" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Set this to true to default it to the left shoulder" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CanSwitchPerspective_MetaData[] = {
 		{ "Category", "Perspective" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Perspective = first or third person" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CanShoulderSwapThirdPerson_MetaData[] = {
 		{ "Category", "Perspective" },
@@ -3077,17 +3123,23 @@ struct Z_Construct_UClass_AMultiplayerPlayerController_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CanShoulderSwapWhileInFirstPerson_MetaData[] = {
 		{ "Category", "Perspective" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This will make it to where if you press the shoulder swap button while in first person it will swap the shoulder for when you go into third person" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UsingGamepad_MetaData[] = {
 		{ "Category", "Variables" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This will just detect whether the last input was with a keyboard and mouse or a controller" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GiveLoadoutOnBeginPlay_MetaData[] = {
 		{ "Category", "Weapons" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies to MultiplayerCharacter when possessing pawn" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaxWeaponAmount_MetaData[] = {
 		{ "Category", "Weapons" },
@@ -3103,28 +3155,38 @@ struct Z_Construct_UClass_AMultiplayerPlayerController_Statics
 		{ "ClampMax", "2" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "0 = will allow duplicates, 1 = will avoid duplicates unless there aren't enough weapons to choose from, 2 = will avoid duplicates no matter what" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AllSharedCalibersOnSpawn_MetaData[] = {
 		{ "Category", "Weapons" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This would be the name and amount of each caliber the player spawns with, only applies to guns that use this rather than their own reserve ammo" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HasSpawnedPlayer_MetaData[] = {
 		{ "Category", "Spawning" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is set to true if the PossessPawn function has executed" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PlayerPawnClass_MetaData[] = {
 		{ "Category", "Spawning" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "In order to change characters on respawn without the player choosing the character you just change this variable" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CanRespawn_MetaData[] = {
 		{ "Category", "Spawning" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Set this to false for one life modes, you will need to make it do something when the player dies, as of right now the player will just be soft locked" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RespawnDelay_MetaData[] = {
 		{ "Category", "Spawning" },
@@ -3138,17 +3200,23 @@ struct Z_Construct_UClass_AMultiplayerPlayerController_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DieWhenChoosingNewCharacter_MetaData[] = {
 		{ "Category", "Spawning" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If true choosing a new character will kill the player and immediately respawn them as the new character, if this is false the player will respawn as that new character when they die" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CharacterSelectWidget_MetaData[] = {
 		{ "Category", "Spawning" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If this is unassigned the game will act as if ChooseCharacterOnSpawn = 0" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AllCharacters_MetaData[] = {
 		{ "Category", "Spawning" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is only used for the character selection menu" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ShowHUDOnRespawn_MetaData[] = {
 		{ "Category", "Spawning" },
@@ -3157,7 +3225,9 @@ struct Z_Construct_UClass_AMultiplayerPlayerController_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RemoveAllWidgetsOnRespawn_MetaData[] = {
 		{ "Category", "Spawning" },
 		{ "ModuleRelativePath", "Public/MultiplayerPlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If ShowHUDOnRespawn = true this will just remove all widget before showing the HUD" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RespawnPoints_MetaData[] = {
 		{ "Category", "Variables" },
@@ -3258,7 +3328,7 @@ struct Z_Construct_UClass_AMultiplayerPlayerController_Statics
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_ApplySettingsToCharacter, "ApplySettingsToCharacter" }, // 1368230442
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_ChooseNewCharacter, "ChooseNewCharacter" }, // 4061546714
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_ClientSetControlRotation, "ClientSetControlRotation" }, // 4106394184
-		{ &Z_Construct_UFunction_AMultiplayerPlayerController_CreateUIWidget, "CreateUIWidget" }, // 3815444977
+		{ &Z_Construct_UFunction_AMultiplayerPlayerController_CreateUIWidget, "CreateUIWidget" }, // 707421354
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_GetAllSharedCalibersOnSpawn, "GetAllSharedCalibersOnSpawn" }, // 231283754
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_GetAvoidDuplicatesForRandomWeapons, "GetAvoidDuplicatesForRandomWeapons" }, // 1122209784
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_GetCanRespawn, "GetCanRespawn" }, // 2878360313
@@ -3267,7 +3337,7 @@ struct Z_Construct_UClass_AMultiplayerPlayerController_Statics
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_GetCanSwitchPerspective, "GetCanSwitchPerspective" }, // 4119881619
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_GetCharacterSelectWidget, "GetCharacterSelectWidget" }, // 2475246544
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_GetChooseCharacterOnRespawn, "GetChooseCharacterOnRespawn" }, // 3670594349
-		{ &Z_Construct_UFunction_AMultiplayerPlayerController_GetControlledPawn, "GetControlledPawn" }, // 3934298180
+		{ &Z_Construct_UFunction_AMultiplayerPlayerController_GetControlledPawn, "GetControlledPawn" }, // 2297351149
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_GetDieWhenChoosingNewCharacter, "GetDieWhenChoosingNewCharacter" }, // 806546401
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_GetGiveLoadoutOnBeginPlay, "GetGiveLoadoutOnBeginPlay" }, // 2171509387
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_GetHasSpawnedPlayer, "GetHasSpawnedPlayer" }, // 1651719858
@@ -3281,12 +3351,12 @@ struct Z_Construct_UClass_AMultiplayerPlayerController_Statics
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_GetUsingThirdPerson, "GetUsingThirdPerson" }, // 20045603
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_GetUsingThirdPersonLeftShoulder, "GetUsingThirdPersonLeftShoulder" }, // 974703716
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_GiveLoadout, "GiveLoadout" }, // 3128717106
-		{ &Z_Construct_UFunction_AMultiplayerPlayerController_PossessPawn, "PossessPawn" }, // 1495966103
+		{ &Z_Construct_UFunction_AMultiplayerPlayerController_PossessPawn, "PossessPawn" }, // 1727532152
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_PrintStringForControlledPawnInvalidApplySettings, "PrintStringForControlledPawnInvalidApplySettings" }, // 868448220
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_RemoveUIWidget, "RemoveUIWidget" }, // 3398212162
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_Respawn, "Respawn" }, // 1413747722
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_Respawn1, "Respawn1" }, // 3544962137
-		{ &Z_Construct_UFunction_AMultiplayerPlayerController_ServerPossessPawn, "ServerPossessPawn" }, // 3659238483
+		{ &Z_Construct_UFunction_AMultiplayerPlayerController_ServerPossessPawn, "ServerPossessPawn" }, // 181071739
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_ServerRespawn1, "ServerRespawn1" }, // 3341627378
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_SetAllSharedCalibersOnSpawn, "SetAllSharedCalibersOnSpawn" }, // 2841150406
 		{ &Z_Construct_UFunction_AMultiplayerPlayerController_SetAvoidDuplicatesForRandomWeapons, "SetAvoidDuplicatesForRandomWeapons" }, // 1678119624
@@ -3569,14 +3639,14 @@ AMultiplayerPlayerController::~AMultiplayerPlayerController() {}
 // End Class AMultiplayerPlayerController
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerPlayerController_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerPlayerController_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMultiplayerPlayerController, AMultiplayerPlayerController::StaticClass, TEXT("AMultiplayerPlayerController"), &Z_Registration_Info_UClass_AMultiplayerPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMultiplayerPlayerController), 3341800977U) },
+		{ Z_Construct_UClass_AMultiplayerPlayerController, AMultiplayerPlayerController::StaticClass, TEXT("AMultiplayerPlayerController"), &Z_Registration_Info_UClass_AMultiplayerPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMultiplayerPlayerController), 2964749966U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerPlayerController_h_3131287954(TEXT("/Script/MultiplayerFPS"),
-	Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerPlayerController_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerPlayerController_h_3966430959(TEXT("/Script/MultiplayerFPS"),
+	Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerPlayerController_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

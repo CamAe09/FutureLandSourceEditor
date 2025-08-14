@@ -36,9 +36,13 @@ struct Z_Construct_UDelegateFunction_VaRest_OnRequestComplete__DelegateSignature
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Generate a delegates for callback events */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Generate a delegates for callback events" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Request;
@@ -127,9 +131,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_AddTag_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Utility" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Add tag to this request */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Add tag to this request" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FNamePropertyParams NewProp_Tag;
@@ -175,13 +183,17 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_ApplyURL_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Request" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Open URL in latent mode */" },
+#endif
 		{ "DefaultToSelf", "WorldContextObject" },
 		{ "HidePin", "WorldContextObject" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Open URL in latent mode" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Url_MetaData[] = {
 		{ "NativeConst", "" },
@@ -235,9 +247,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_Cancel_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Response" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Cancel latent response waiting  */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cancel latent response waiting" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -267,9 +283,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_ExecuteProcessRequest_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Request" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Check URL and execute process request */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Check URL and execute process request" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -303,9 +323,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_GetAllResponseHeaders_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Response" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get list of all response headers */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get list of all response headers" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue_Inner;
@@ -350,9 +374,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_GetRequestObject_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Request" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the Request Json object */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the Request Json object" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
@@ -394,9 +422,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_GetResponseCode_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Response" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the response code of the last query */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the response code of the last query" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
@@ -438,9 +470,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_GetResponseContent_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Response" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the content payload of the request or response.\n\x09 *\n\x09 * @param Content - array that will be filled with the content.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the content payload of the request or response.\n\n@param Content - array that will be filled with the content." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReturnValue_MetaData[] = {
 		{ "NativeConst", "" },
@@ -489,10 +525,14 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_GetResponseContentAsString_Stati
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Response" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get request response stored as a string\n\x09 * @param bCacheResponseContent - Set true if you plan to use it few times to prevent deserialization each time\n\x09 */" },
+#endif
 		{ "CPP_Default_bCacheResponseContent", "true" },
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get request response stored as a string\n@param bCacheResponseContent - Set true if you plan to use it few times to prevent deserialization each time" },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_bCacheResponseContent_SetBit(void* Obj);
@@ -543,9 +583,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_GetResponseContentLength_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Response" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Shortcut to get the Content-Length header value. Will not always return non-zero.\n\x09 * If you want the real length of the payload, get the payload and check it's length.\n\x09 *\n\x09 * @return the content length (if available)\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Shortcut to get the Content-Length header value. Will not always return non-zero.\nIf you want the real length of the payload, get the payload and check it's length.\n\n@return the content length (if available)" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
@@ -588,9 +632,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_GetResponseHeader_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Response" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get value of desired response header */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get value of desired response header" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HeaderName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -639,9 +687,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_GetResponseObject_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Response" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the Response Json object */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the Response Json object" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
@@ -683,9 +735,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_GetResponseValue_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Response" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the Response Json value */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the Response Json value" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
@@ -727,9 +783,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_GetStatus_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Request" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get status of http request */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get status of http request" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FBytePropertyParams NewProp_ReturnValue_Underlying;
@@ -738,7 +798,7 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_GetStatus_Statics
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UVaRestRequestJSON_GetStatus_Statics::NewProp_ReturnValue_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestRequestJSON_GetStatus_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestRequestJSON_eventGetStatus_Parms, ReturnValue), Z_Construct_UEnum_VaRest_EVaRestRequestStatus, METADATA_PARAMS(0, nullptr) }; // 2794500465
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestRequestJSON_GetStatus_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestRequestJSON_eventGetStatus_Parms, ReturnValue), Z_Construct_UEnum_VaRest_EVaRestRequestStatus, METADATA_PARAMS(0, nullptr) }; // 279687955
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVaRestRequestJSON_GetStatus_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVaRestRequestJSON_GetStatus_Statics::NewProp_ReturnValue_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVaRestRequestJSON_GetStatus_Statics::NewProp_ReturnValue,
@@ -774,9 +834,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_GetURL_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Request" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get url of http request */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get url of http request" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
@@ -818,9 +882,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_GetVerb_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Request" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get verb to the request */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get verb to the request" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FBytePropertyParams NewProp_ReturnValue_Underlying;
@@ -829,7 +897,7 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_GetVerb_Statics
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UVaRestRequestJSON_GetVerb_Statics::NewProp_ReturnValue_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestRequestJSON_GetVerb_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestRequestJSON_eventGetVerb_Parms, ReturnValue), Z_Construct_UEnum_VaRest_EVaRestRequestVerb, METADATA_PARAMS(0, nullptr) }; // 343738194
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestRequestJSON_GetVerb_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestRequestJSON_eventGetVerb_Parms, ReturnValue), Z_Construct_UEnum_VaRest_EVaRestRequestVerb, METADATA_PARAMS(0, nullptr) }; // 2024740045
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVaRestRequestJSON_GetVerb_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVaRestRequestJSON_GetVerb_Statics::NewProp_ReturnValue_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVaRestRequestJSON_GetVerb_Statics::NewProp_ReturnValue,
@@ -866,9 +934,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_HasTag_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Utility" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** See if this request contains the supplied tag */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "See if this request contains the supplied tag" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FNamePropertyParams NewProp_Tag;
@@ -919,10 +991,14 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_ProcessURL_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Request" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Open URL with current setup */" },
+#endif
 		{ "CPP_Default_Url", "http://alyamkin.com" },
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Open URL with current setup" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Url_MetaData[] = {
 		{ "NativeConst", "" },
@@ -969,9 +1045,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_RemoveTag_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Utility" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Remove tag from this request\n\x09 *\n\x09 * @return Number of removed elements\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Remove tag from this request\n\n@return Number of removed elements" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FNamePropertyParams NewProp_Tag;
@@ -1013,9 +1093,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_ResetData_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Utility" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Reset all internal saved data */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Reset all internal saved data" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -1045,9 +1129,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_ResetRequestData_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Request" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Reset saved request data */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Reset saved request data" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -1077,9 +1165,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_ResetResponseData_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Response" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Reset saved response data */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Reset saved response data" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -1113,9 +1205,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_SetBinaryContentType_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Request" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set content type of the request for binary post data */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set content type of the request for binary post data" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ContentType_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1161,9 +1257,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_SetBinaryRequestContent_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Request" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set content of the request for binary post data */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set content of the request for binary post data" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Content_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1212,9 +1312,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_SetContentType_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Request" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set content type to the request. If you're using the x-www-form-urlencoded,\n\x09 * params/constaints should be defined as key=ValueString pairs from Json data */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set content type to the request. If you're using the x-www-form-urlencoded,\nparams/constaints should be defined as key=ValueString pairs from Json data" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FBytePropertyParams NewProp_ContentType_Underlying;
@@ -1223,7 +1327,7 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_SetContentType_Statics
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UVaRestRequestJSON_SetContentType_Statics::NewProp_ContentType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestRequestJSON_SetContentType_Statics::NewProp_ContentType = { "ContentType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestRequestJSON_eventSetContentType_Parms, ContentType), Z_Construct_UEnum_VaRest_EVaRestRequestContentType, METADATA_PARAMS(0, nullptr) }; // 687765845
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestRequestJSON_SetContentType_Statics::NewProp_ContentType = { "ContentType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestRequestJSON_eventSetContentType_Parms, ContentType), Z_Construct_UEnum_VaRest_EVaRestRequestContentType, METADATA_PARAMS(0, nullptr) }; // 383282819
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVaRestRequestJSON_SetContentType_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVaRestRequestJSON_SetContentType_Statics::NewProp_ContentType_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVaRestRequestJSON_SetContentType_Statics::NewProp_ContentType,
@@ -1260,9 +1364,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_SetCustomVerb_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Request" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set custom verb to the request */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set custom verb to the request" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_Verb;
@@ -1306,9 +1414,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_SetHeader_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Request" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Sets optional header info */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets optional header info" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HeaderName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1361,9 +1473,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_SetRequestObject_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Request" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set the Request Json object */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the Request Json object" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_JsonObject;
@@ -1406,9 +1522,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_SetResponseObject_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Response" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set the Response Json object */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the Response Json object" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_JsonObject;
@@ -1451,9 +1571,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_SetStringRequestContent_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Request" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set content of the request as a plain string */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set content of the request as a plain string" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Content_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1499,10 +1623,14 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_SetURL_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Request" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Setting request URL */" },
+#endif
 		{ "CPP_Default_Url", "http://alyamkin.com" },
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Setting request URL" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Url_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1548,9 +1676,13 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_SetVerb_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Request" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set verb to the request */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set verb to the request" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FBytePropertyParams NewProp_Verb_Underlying;
@@ -1559,7 +1691,7 @@ struct Z_Construct_UFunction_UVaRestRequestJSON_SetVerb_Statics
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UVaRestRequestJSON_SetVerb_Statics::NewProp_Verb_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestRequestJSON_SetVerb_Statics::NewProp_Verb = { "Verb", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestRequestJSON_eventSetVerb_Parms, Verb), Z_Construct_UEnum_VaRest_EVaRestRequestVerb, METADATA_PARAMS(0, nullptr) }; // 343738194
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVaRestRequestJSON_SetVerb_Statics::NewProp_Verb = { "Verb", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestRequestJSON_eventSetVerb_Parms, Verb), Z_Construct_UEnum_VaRest_EVaRestRequestVerb, METADATA_PARAMS(0, nullptr) }; // 2024740045
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVaRestRequestJSON_SetVerb_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVaRestRequestJSON_SetVerb_Statics::NewProp_Verb_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVaRestRequestJSON_SetVerb_Statics::NewProp_Verb,
@@ -1636,56 +1768,92 @@ struct Z_Construct_UClass_UVaRestRequestJSON_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * General helper class http requests via blueprints\n */" },
+#endif
 		{ "IncludePath", "VaRestRequestJSON.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "General helper class http requests via blueprints" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnRequestComplete_MetaData[] = {
 		{ "Category", "VaRest|Event" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Event occured when the request has been completed */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event occured when the request has been completed" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnRequestFail_MetaData[] = {
 		{ "Category", "VaRest|Event" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Event occured when the request wasn't successfull */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event occured when the request wasn't successfull" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ResponseSize_MetaData[] = {
 		{ "Category", "VaRest|Response" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Response size */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Response size" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ResponseContent_MetaData[] = {
 		{ "Category", "VaRest|Response" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** DEPRECATED: Please use GetResponseContentAsString() instead */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DEPRECATED: Please use GetResponseContentAsString() instead" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bIsValidJsonResponse_MetaData[] = {
 		{ "Category", "VaRest|Response" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Is the response valid JSON? */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Is the response valid JSON?" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RequestJsonObj_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Internal request data stored as JSON */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Internal request data stored as JSON" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ResponseJsonObj_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Response data stored as JSON */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Response data stored as JSON" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ResponseJsonValue_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Response data stored as JSON value */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestRequestJSON.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Response data stored as JSON value" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnRequestComplete;
@@ -1700,38 +1868,38 @@ struct Z_Construct_UClass_UVaRestRequestJSON_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_AddTag, "AddTag" }, // 2484581734
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_ApplyURL, "ApplyURL" }, // 905640735
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_Cancel, "Cancel" }, // 2544132199
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_ExecuteProcessRequest, "ExecuteProcessRequest" }, // 3310419799
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetAllResponseHeaders, "GetAllResponseHeaders" }, // 4257722669
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetRequestObject, "GetRequestObject" }, // 2412428048
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetResponseCode, "GetResponseCode" }, // 3254401120
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetResponseContent, "GetResponseContent" }, // 386861178
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetResponseContentAsString, "GetResponseContentAsString" }, // 2467090808
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetResponseContentLength, "GetResponseContentLength" }, // 211999330
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetResponseHeader, "GetResponseHeader" }, // 3953918291
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetResponseObject, "GetResponseObject" }, // 983956427
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetResponseValue, "GetResponseValue" }, // 3089685066
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetStatus, "GetStatus" }, // 2504380715
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetURL, "GetURL" }, // 3553538104
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetVerb, "GetVerb" }, // 1645344918
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_HasTag, "HasTag" }, // 2484085460
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_ProcessURL, "ProcessURL" }, // 2903656976
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_RemoveTag, "RemoveTag" }, // 1866006695
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_ResetData, "ResetData" }, // 2442874428
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_ResetRequestData, "ResetRequestData" }, // 3376754466
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_ResetResponseData, "ResetResponseData" }, // 1571566090
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetBinaryContentType, "SetBinaryContentType" }, // 1946082091
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetBinaryRequestContent, "SetBinaryRequestContent" }, // 2226168731
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetContentType, "SetContentType" }, // 1729020250
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetCustomVerb, "SetCustomVerb" }, // 4146381506
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetHeader, "SetHeader" }, // 4062462393
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetRequestObject, "SetRequestObject" }, // 2257679562
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetResponseObject, "SetResponseObject" }, // 1415912885
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetStringRequestContent, "SetStringRequestContent" }, // 2154384288
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetURL, "SetURL" }, // 1525131820
-		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetVerb, "SetVerb" }, // 3324650133
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_AddTag, "AddTag" }, // 3541954448
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_ApplyURL, "ApplyURL" }, // 3999902942
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_Cancel, "Cancel" }, // 4120524931
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_ExecuteProcessRequest, "ExecuteProcessRequest" }, // 1442705637
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetAllResponseHeaders, "GetAllResponseHeaders" }, // 141106329
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetRequestObject, "GetRequestObject" }, // 3187770325
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetResponseCode, "GetResponseCode" }, // 1204599943
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetResponseContent, "GetResponseContent" }, // 2564562090
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetResponseContentAsString, "GetResponseContentAsString" }, // 3284553288
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetResponseContentLength, "GetResponseContentLength" }, // 2460006815
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetResponseHeader, "GetResponseHeader" }, // 3758698548
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetResponseObject, "GetResponseObject" }, // 1678368526
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetResponseValue, "GetResponseValue" }, // 2840511547
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetStatus, "GetStatus" }, // 3499288367
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetURL, "GetURL" }, // 3972482562
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_GetVerb, "GetVerb" }, // 2519139800
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_HasTag, "HasTag" }, // 527617033
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_ProcessURL, "ProcessURL" }, // 1263034018
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_RemoveTag, "RemoveTag" }, // 2546372989
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_ResetData, "ResetData" }, // 1309614113
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_ResetRequestData, "ResetRequestData" }, // 1497887955
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_ResetResponseData, "ResetResponseData" }, // 1555565022
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetBinaryContentType, "SetBinaryContentType" }, // 1914262329
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetBinaryRequestContent, "SetBinaryRequestContent" }, // 2636030692
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetContentType, "SetContentType" }, // 3705818877
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetCustomVerb, "SetCustomVerb" }, // 3621573057
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetHeader, "SetHeader" }, // 1317245640
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetRequestObject, "SetRequestObject" }, // 459927663
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetResponseObject, "SetResponseObject" }, // 438043537
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetStringRequestContent, "SetStringRequestContent" }, // 1965843900
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetURL, "SetURL" }, // 4097406087
+		{ &Z_Construct_UFunction_UVaRestRequestJSON_SetVerb, "SetVerb" }, // 3912421355
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -1739,7 +1907,7 @@ struct Z_Construct_UClass_UVaRestRequestJSON_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UVaRestRequestJSON_Statics::NewProp_OnRequestComplete = { "OnRequestComplete", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVaRestRequestJSON, OnRequestComplete), Z_Construct_UDelegateFunction_VaRest_OnRequestComplete__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnRequestComplete_MetaData), NewProp_OnRequestComplete_MetaData) }; // 3778957282
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UVaRestRequestJSON_Statics::NewProp_OnRequestComplete = { "OnRequestComplete", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVaRestRequestJSON, OnRequestComplete), Z_Construct_UDelegateFunction_VaRest_OnRequestComplete__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnRequestComplete_MetaData), NewProp_OnRequestComplete_MetaData) }; // 2869324469
 const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UVaRestRequestJSON_Statics::NewProp_OnRequestFail = { "OnRequestFail", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVaRestRequestJSON, OnRequestFail), Z_Construct_UDelegateFunction_VaRest_OnRequestFail__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnRequestFail_MetaData), NewProp_OnRequestFail_MetaData) }; // 3935411017
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UVaRestRequestJSON_Statics::NewProp_ResponseSize = { "ResponseSize", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVaRestRequestJSON, ResponseSize), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ResponseSize_MetaData), NewProp_ResponseSize_MetaData) };
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UVaRestRequestJSON_Statics::NewProp_ResponseContent = { "ResponseContent", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVaRestRequestJSON, ResponseContent), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ResponseContent_MetaData), NewProp_ResponseContent_MetaData) };
@@ -1799,14 +1967,14 @@ UVaRestRequestJSON::~UVaRestRequestJSON() {}
 // End Class UVaRestRequestJSON
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestRequestJSON_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestRequestJSON_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UVaRestRequestJSON, UVaRestRequestJSON::StaticClass, TEXT("UVaRestRequestJSON"), &Z_Registration_Info_UClass_UVaRestRequestJSON, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVaRestRequestJSON), 2732618863U) },
+		{ Z_Construct_UClass_UVaRestRequestJSON, UVaRestRequestJSON::StaticClass, TEXT("UVaRestRequestJSON"), &Z_Registration_Info_UClass_UVaRestRequestJSON, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVaRestRequestJSON), 1508156379U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestRequestJSON_h_3843931399(TEXT("/Script/VaRest"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestRequestJSON_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestRequestJSON_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestRequestJSON_h_3548887587(TEXT("/Script/VaRest"),
+	Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestRequestJSON_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestRequestJSON_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

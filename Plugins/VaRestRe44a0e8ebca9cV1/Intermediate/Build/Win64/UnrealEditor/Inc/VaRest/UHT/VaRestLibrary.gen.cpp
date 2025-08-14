@@ -33,10 +33,14 @@ struct Z_Construct_UFunction_UVaRestLibrary_Base64Decode_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Utility" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Decodes a Base64 string into a FString\n\x09 *\n\x09 * @param Source\x09The stringified data to convert\n\x09 * @param Dest\x09\x09The out buffer that will be filled with the decoded data\n\x09 * @return\x09\x09\x09True if the buffer was decoded, false if it failed to decode\n\x09 */" },
+#endif
 		{ "DisplayName", "Base64 Decode" },
 		{ "ModuleRelativePath", "Public/VaRestLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Decodes a Base64 string into a FString\n\n@param Source        The stringified data to convert\n@param Dest          The out buffer that will be filled with the decoded data\n@return                      True if the buffer was decoded, false if it failed to decode" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Source_MetaData[] = {
 		{ "NativeConst", "" },
@@ -96,10 +100,14 @@ struct Z_Construct_UFunction_UVaRestLibrary_Base64DecodeData_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Utility" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Decodes a Base64 string into a byte array\n\x09 *\n\x09 * @param Source\x09The stringified data to convert\n\x09 * @param Dest\x09\x09The out buffer that will be filled with the decoded data\n\x09 * @return\x09\x09\x09True if the buffer was decoded, false if it failed to decode\n\x09 */" },
+#endif
 		{ "DisplayName", "Base64 Decode Data" },
 		{ "ModuleRelativePath", "Public/VaRestLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Decodes a Base64 string into a byte array\n\n@param Source        The stringified data to convert\n@param Dest          The out buffer that will be filled with the decoded data\n@return                      True if the buffer was decoded, false if it failed to decode" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Source_MetaData[] = {
 		{ "NativeConst", "" },
@@ -161,10 +169,14 @@ struct Z_Construct_UFunction_UVaRestLibrary_Base64Encode_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Utility" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Encodes a FString into a Base64 string\n\x09 *\n\x09 * @param Source\x09The string data to convert\n\x09 * @return\x09\x09\x09""A string that encodes the binary data in a way that can be safely transmitted via various Internet protocols\n\x09 */" },
+#endif
 		{ "DisplayName", "Base64 Encode" },
 		{ "ModuleRelativePath", "Public/VaRestLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Encodes a FString into a Base64 string\n\n@param Source        The string data to convert\n@return                      A string that encodes the binary data in a way that can be safely transmitted via various Internet protocols" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Source_MetaData[] = {
 		{ "NativeConst", "" },
@@ -215,10 +227,14 @@ struct Z_Construct_UFunction_UVaRestLibrary_Base64EncodeData_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Utility" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Encodes a byte array into a Base64 string\n\x09 *\n\x09 * @param Dara\x09\x09The data to convert\n\x09 * @return\x09\x09\x09""A string that encodes the binary data in a way that can be safely transmitted via various Internet protocols\n\x09 */" },
+#endif
 		{ "DisplayName", "Base64 Encode Data" },
 		{ "ModuleRelativePath", "Public/VaRestLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Encodes a byte array into a Base64 string\n\n@param Dara          The data to convert\n@return                      A string that encodes the binary data in a way that can be safely transmitted via various Internet protocols" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Data_MetaData[] = {
 		{ "NativeConst", "" },
@@ -279,9 +295,13 @@ struct Z_Construct_UFunction_UVaRestLibrary_GetVaRestSettings_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Common" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Direct access to the plugin settings */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Direct access to the plugin settings" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
@@ -323,10 +343,14 @@ struct Z_Construct_UFunction_UVaRestLibrary_GetVaRestVersion_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Utility" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the plugin's version\n\x09 */" },
+#endif
 		{ "DisplayName", "Get VaRest Version" },
 		{ "ModuleRelativePath", "Public/VaRestLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the plugin's version" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
@@ -369,9 +393,13 @@ struct Z_Construct_UFunction_UVaRestLibrary_GetWorldURL_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Utility" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the URL that was used when loading this World\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the URL that was used when loading this World" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif // WITH_METADATA
@@ -381,7 +409,7 @@ struct Z_Construct_UFunction_UVaRestLibrary_GetWorldURL_Statics
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UVaRestLibrary_GetWorldURL_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestLibrary_eventGetWorldURL_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVaRestLibrary_GetWorldURL_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestLibrary_eventGetWorldURL_Parms, ReturnValue), Z_Construct_UScriptStruct_FVaRestURL, METADATA_PARAMS(0, nullptr) }; // 3338805899
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVaRestLibrary_GetWorldURL_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestLibrary_eventGetWorldURL_Parms, ReturnValue), Z_Construct_UScriptStruct_FVaRestURL, METADATA_PARAMS(0, nullptr) }; // 1309582213
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVaRestLibrary_GetWorldURL_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVaRestLibrary_GetWorldURL_Statics::NewProp_WorldContextObject,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVaRestLibrary_GetWorldURL_Statics::NewProp_ReturnValue,
@@ -419,10 +447,14 @@ struct Z_Construct_UFunction_UVaRestLibrary_HTTPStatusIntToEnum_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Utility" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Helper method to convert a status code from HTTP to an enum for easier readability\n\x09 */" },
+#endif
 		{ "DisplayName", "HTTP Status Int To Enum" },
 		{ "ModuleRelativePath", "Public/VaRestLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Helper method to convert a status code from HTTP to an enum for easier readability" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FIntPropertyParams NewProp_StatusCode;
@@ -431,7 +463,7 @@ struct Z_Construct_UFunction_UVaRestLibrary_HTTPStatusIntToEnum_Statics
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UVaRestLibrary_HTTPStatusIntToEnum_Statics::NewProp_StatusCode = { "StatusCode", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestLibrary_eventHTTPStatusIntToEnum_Parms, StatusCode), METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UVaRestLibrary_HTTPStatusIntToEnum_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestLibrary_eventHTTPStatusIntToEnum_Parms, ReturnValue), Z_Construct_UEnum_VaRest_EVaRestHttpStatusCode, METADATA_PARAMS(0, nullptr) }; // 1514848816
+const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UVaRestLibrary_HTTPStatusIntToEnum_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VaRestLibrary_eventHTTPStatusIntToEnum_Parms, ReturnValue), Z_Construct_UEnum_VaRest_EVaRestHttpStatusCode, METADATA_PARAMS(0, nullptr) }; // 2511497377
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVaRestLibrary_HTTPStatusIntToEnum_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVaRestLibrary_HTTPStatusIntToEnum_Statics::NewProp_StatusCode,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVaRestLibrary_HTTPStatusIntToEnum_Statics::NewProp_ReturnValue,
@@ -469,9 +501,13 @@ struct Z_Construct_UFunction_UVaRestLibrary_PercentEncode_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Utility" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Applies percent-encoding to text */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Applies percent-encoding to text" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Source_MetaData[] = {
 		{ "NativeConst", "" },
@@ -521,10 +557,14 @@ struct Z_Construct_UFunction_UVaRestLibrary_StringToMd5_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Utility" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Helper to perform the very common case of hashing an ASCII string into a hex representation.\n\x09 *\n\x09 * @param String\x09Hex representation of the hash (32 lower-case hex digits)\n\x09 */" },
+#endif
 		{ "DisplayName", "String to MD5" },
 		{ "ModuleRelativePath", "Public/VaRestLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Helper to perform the very common case of hashing an ASCII string into a hex representation.\n\n@param String        Hex representation of the hash (32 lower-case hex digits)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StringToHash_MetaData[] = {
 		{ "NativeConst", "" },
@@ -574,10 +614,14 @@ struct Z_Construct_UFunction_UVaRestLibrary_StringToSha1_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Utility" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Helper to perform the SHA1 hash operation on string.\n\x09 */" },
+#endif
 		{ "DisplayName", "String to SHA1" },
 		{ "ModuleRelativePath", "Public/VaRestLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Helper to perform the SHA1 hash operation on string." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StringToHash_MetaData[] = {
 		{ "NativeConst", "" },
@@ -644,25 +688,29 @@ struct Z_Construct_UClass_UVaRestLibrary_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Useful tools for REST communications\n */" },
+#endif
 		{ "IncludePath", "VaRestLibrary.h" },
 		{ "ModuleRelativePath", "Public/VaRestLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Useful tools for REST communications" },
+#endif
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UVaRestLibrary_Base64Decode, "Base64Decode" }, // 1186324722
-		{ &Z_Construct_UFunction_UVaRestLibrary_Base64DecodeData, "Base64DecodeData" }, // 2420863220
-		{ &Z_Construct_UFunction_UVaRestLibrary_Base64Encode, "Base64Encode" }, // 3824783352
-		{ &Z_Construct_UFunction_UVaRestLibrary_Base64EncodeData, "Base64EncodeData" }, // 2605319812
-		{ &Z_Construct_UFunction_UVaRestLibrary_GetVaRestSettings, "GetVaRestSettings" }, // 3518792284
-		{ &Z_Construct_UFunction_UVaRestLibrary_GetVaRestVersion, "GetVaRestVersion" }, // 1725575745
-		{ &Z_Construct_UFunction_UVaRestLibrary_GetWorldURL, "GetWorldURL" }, // 614301516
-		{ &Z_Construct_UFunction_UVaRestLibrary_HTTPStatusIntToEnum, "HTTPStatusIntToEnum" }, // 1034317687
-		{ &Z_Construct_UFunction_UVaRestLibrary_PercentEncode, "PercentEncode" }, // 219833213
-		{ &Z_Construct_UFunction_UVaRestLibrary_StringToMd5, "StringToMd5" }, // 3351677137
-		{ &Z_Construct_UFunction_UVaRestLibrary_StringToSha1, "StringToSha1" }, // 3991742799
+		{ &Z_Construct_UFunction_UVaRestLibrary_Base64Decode, "Base64Decode" }, // 4113135887
+		{ &Z_Construct_UFunction_UVaRestLibrary_Base64DecodeData, "Base64DecodeData" }, // 1711011181
+		{ &Z_Construct_UFunction_UVaRestLibrary_Base64Encode, "Base64Encode" }, // 3835825855
+		{ &Z_Construct_UFunction_UVaRestLibrary_Base64EncodeData, "Base64EncodeData" }, // 657277915
+		{ &Z_Construct_UFunction_UVaRestLibrary_GetVaRestSettings, "GetVaRestSettings" }, // 3150337475
+		{ &Z_Construct_UFunction_UVaRestLibrary_GetVaRestVersion, "GetVaRestVersion" }, // 3229090383
+		{ &Z_Construct_UFunction_UVaRestLibrary_GetWorldURL, "GetWorldURL" }, // 2496329736
+		{ &Z_Construct_UFunction_UVaRestLibrary_HTTPStatusIntToEnum, "HTTPStatusIntToEnum" }, // 3450610731
+		{ &Z_Construct_UFunction_UVaRestLibrary_PercentEncode, "PercentEncode" }, // 607359287
+		{ &Z_Construct_UFunction_UVaRestLibrary_StringToMd5, "StringToMd5" }, // 1081330937
+		{ &Z_Construct_UFunction_UVaRestLibrary_StringToSha1, "StringToSha1" }, // 2585089389
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -708,14 +756,14 @@ UVaRestLibrary::~UVaRestLibrary() {}
 // End Class UVaRestLibrary
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestLibrary_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestLibrary_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UVaRestLibrary, UVaRestLibrary::StaticClass, TEXT("UVaRestLibrary"), &Z_Registration_Info_UClass_UVaRestLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVaRestLibrary), 462871067U) },
+		{ Z_Construct_UClass_UVaRestLibrary, UVaRestLibrary::StaticClass, TEXT("UVaRestLibrary"), &Z_Registration_Info_UClass_UVaRestLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVaRestLibrary), 3393221316U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestLibrary_h_3484988050(TEXT("/Script/VaRest"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestLibrary_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestLibrary_h_3825190868(TEXT("/Script/VaRest"),
+	Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestLibrary_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

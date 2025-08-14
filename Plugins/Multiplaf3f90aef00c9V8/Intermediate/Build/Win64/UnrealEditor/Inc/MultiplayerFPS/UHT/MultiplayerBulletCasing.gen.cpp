@@ -333,7 +333,9 @@ struct Z_Construct_UClass_AMultiplayerBulletCasing_Statics
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/MultiplayerBulletCasing.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Rotate this to control which direction the casing launches" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OwningGun_MetaData[] = {
 		{ "Category", "Variables" },
@@ -346,7 +348,9 @@ struct Z_Construct_UClass_AMultiplayerBulletCasing_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LaunchVelocityChange_MetaData[] = {
 		{ "Category", "Launching" },
 		{ "ModuleRelativePath", "Public/MultiplayerBulletCasing.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If true, the strength is taken as a change in velocity instead of an impulse (ie. mass will have no effect)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DelayToDestroySelf_MetaData[] = {
 		{ "Category", "Destroy Self" },
@@ -359,7 +363,9 @@ struct Z_Construct_UClass_AMultiplayerBulletCasing_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CasingHitSounds_MetaData[] = {
 		{ "Category", "Sound" },
 		{ "ModuleRelativePath", "Public/MultiplayerBulletCasing.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Using the physical material allows you to have a different sound for each surface" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CasingHitSoundMaxVolume_MetaData[] = {
 		{ "Category", "Sound" },
@@ -374,7 +380,9 @@ struct Z_Construct_UClass_AMultiplayerBulletCasing_Statics
 		{ "Category", "Sound" },
 		{ "ClampMin", "0.000000" },
 		{ "ModuleRelativePath", "Public/MultiplayerBulletCasing.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If the casing is at or above this speed then the sound volume will be at max, but any lower than this it be quieter" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DestroySelfTimerHandle_MetaData[] = {
 		{ "Category", "Timers" },
@@ -496,14 +504,14 @@ AMultiplayerBulletCasing::~AMultiplayerBulletCasing() {}
 // End Class AMultiplayerBulletCasing
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerBulletCasing_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerBulletCasing_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMultiplayerBulletCasing, AMultiplayerBulletCasing::StaticClass, TEXT("AMultiplayerBulletCasing"), &Z_Registration_Info_UClass_AMultiplayerBulletCasing, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMultiplayerBulletCasing), 461772532U) },
+		{ Z_Construct_UClass_AMultiplayerBulletCasing, AMultiplayerBulletCasing::StaticClass, TEXT("AMultiplayerBulletCasing"), &Z_Registration_Info_UClass_AMultiplayerBulletCasing, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMultiplayerBulletCasing), 3546958383U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerBulletCasing_h_1847208974(TEXT("/Script/MultiplayerFPS"),
-	Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerBulletCasing_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerBulletCasing_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerBulletCasing_h_492110992(TEXT("/Script/MultiplayerFPS"),
+	Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerBulletCasing_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerBulletCasing_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

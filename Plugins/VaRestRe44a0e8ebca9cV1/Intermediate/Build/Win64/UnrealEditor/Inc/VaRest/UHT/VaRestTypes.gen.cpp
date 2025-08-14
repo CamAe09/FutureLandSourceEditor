@@ -37,7 +37,9 @@ struct Z_Construct_UEnum_VaRest_EVaRestRequestVerb_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Verb (GET, PUT, POST) used by the request */" },
+#endif
 		{ "CUSTOM.Comment", "/** Set CUSTOM verb by SetCustomVerb() function */" },
 		{ "CUSTOM.Name", "EVaRestRequestVerb::CUSTOM" },
 		{ "CUSTOM.ToolTip", "Set CUSTOM verb by SetCustomVerb() function" },
@@ -47,7 +49,9 @@ struct Z_Construct_UEnum_VaRest_EVaRestRequestVerb_Statics
 		{ "ModuleRelativePath", "Public/VaRestTypes.h" },
 		{ "POST.Name", "EVaRestRequestVerb::POST" },
 		{ "PUT.Name", "EVaRestRequestVerb::PUT" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Verb (GET, PUT, POST) used by the request" },
+#endif
 	};
 #endif // WITH_METADATA
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
@@ -101,10 +105,14 @@ struct Z_Construct_UEnum_VaRest_EVaRestRequestContentType_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 		{ "binary.Name", "EVaRestRequestContentType::binary" },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Content type (json, urlencoded, etc.) used by the request */" },
+#endif
 		{ "json.Name", "EVaRestRequestContentType::json" },
 		{ "ModuleRelativePath", "Public/VaRestTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Content type (json, urlencoded, etc.) used by the request" },
+#endif
 		{ "x_www_form_urlencoded_body.DisplayName", "x-www-form-urlencoded (Request Body)" },
 		{ "x_www_form_urlencoded_body.Name", "EVaRestRequestContentType::x_www_form_urlencoded_body" },
 		{ "x_www_form_urlencoded_url.DisplayName", "x-www-form-urlencoded (URL)" },
@@ -160,7 +168,9 @@ struct Z_Construct_UEnum_VaRest_EVaRestRequestStatus_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Enumerates the current state of an Http request */" },
+#endif
 		{ "Failed.Comment", "/** Finished but failed */" },
 		{ "Failed.Name", "EVaRestRequestStatus::Failed" },
 		{ "Failed.ToolTip", "Finished but failed" },
@@ -177,7 +187,9 @@ struct Z_Construct_UEnum_VaRest_EVaRestRequestStatus_Statics
 		{ "Succeeded.Comment", "/** Finished and was successful */" },
 		{ "Succeeded.Name", "EVaRestRequestStatus::Succeeded" },
 		{ "Succeeded.ToolTip", "Finished and was successful" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enumerates the current state of an Http request" },
+#endif
 	};
 #endif // WITH_METADATA
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
@@ -250,7 +262,9 @@ struct Z_Construct_UEnum_VaRest_EVaRestHttpStatusCode_Statics
 		{ "BadRequest.Name", "EVaRestHttpStatusCode::BadRequest" },
 		{ "BadRequest.ToolTip", "the request could not be processed by the server due to invalid syntax." },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Response codes that can come back from an Http request\n */" },
+#endif
 		{ "Conflict.Comment", "// the request could not be completed due to a conflict with the current state of the resource. the user should resubmit with more information.\n" },
 		{ "Conflict.DisplayName", "Conflict = 409" },
 		{ "Conflict.Name", "EVaRestHttpStatusCode::Conflict" },
@@ -372,7 +386,9 @@ struct Z_Construct_UEnum_VaRest_EVaRestHttpStatusCode_Statics
 		{ "SwitchProtocol.DisplayName", "SwitchProtocol = 101" },
 		{ "SwitchProtocol.Name", "EVaRestHttpStatusCode::SwitchProtocol" },
 		{ "SwitchProtocol.ToolTip", "the server has switched protocols in an upgrade header." },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Response codes that can come back from an Http request" },
+#endif
 		{ "TooManyRequests.Comment", "// too many requests, the server is throttling\n" },
 		{ "TooManyRequests.DisplayName", "TooManyRequests = 429" },
 		{ "TooManyRequests.Name", "EVaRestHttpStatusCode::TooManyRequests" },
@@ -485,27 +501,43 @@ struct Z_Construct_UScriptStruct_FVaRestURL_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * FURL structure wrapper for BP access\n */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "FURL structure wrapper for BP access" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Protocol_MetaData[] = {
 		{ "Category", "URL" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Protocol, i.e. \"unreal\" or \"http\" */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Protocol, i.e. \"unreal\" or \"http\"" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Host_MetaData[] = {
 		{ "Category", "URL" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Optional hostname, i.e. \"204.157.115.40\" or \"unreal.epicgames.com\", blank if local. */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Optional hostname, i.e. \"204.157.115.40\" or \"unreal.epicgames.com\", blank if local." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Port_MetaData[] = {
 		{ "Category", "URL" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Optional host port */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Optional host port" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Valid_MetaData[] = {
 		{ "Category", "URL" },
@@ -513,27 +545,43 @@ struct Z_Construct_UScriptStruct_FVaRestURL_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Map_MetaData[] = {
 		{ "Category", "URL" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Map name, i.e. \"SkyCity\", default is \"Entry\" */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Map name, i.e. \"SkyCity\", default is \"Entry\"" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RedirectURL_MetaData[] = {
 		{ "Category", "URL" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Optional place to download Map if client does not possess it */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Optional place to download Map if client does not possess it" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Op_MetaData[] = {
 		{ "Category", "URL" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Options */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Options" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Portal_MetaData[] = {
 		{ "Category", "URL" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Portal to enter through, default is \"\" */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Portal to enter through, default is \"\"" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_Protocol;
@@ -597,21 +645,21 @@ UScriptStruct* Z_Construct_UScriptStruct_FVaRestURL()
 // End ScriptStruct FVaRestURL
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestTypes_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestTypes_h_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ EVaRestRequestVerb_StaticEnum, TEXT("EVaRestRequestVerb"), &Z_Registration_Info_UEnum_EVaRestRequestVerb, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 343738194U) },
-		{ EVaRestRequestContentType_StaticEnum, TEXT("EVaRestRequestContentType"), &Z_Registration_Info_UEnum_EVaRestRequestContentType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 687765845U) },
-		{ EVaRestRequestStatus_StaticEnum, TEXT("EVaRestRequestStatus"), &Z_Registration_Info_UEnum_EVaRestRequestStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2794500465U) },
-		{ EVaRestHttpStatusCode_StaticEnum, TEXT("EVaRestHttpStatusCode"), &Z_Registration_Info_UEnum_EVaRestHttpStatusCode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1514848816U) },
+		{ EVaRestRequestVerb_StaticEnum, TEXT("EVaRestRequestVerb"), &Z_Registration_Info_UEnum_EVaRestRequestVerb, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2024740045U) },
+		{ EVaRestRequestContentType_StaticEnum, TEXT("EVaRestRequestContentType"), &Z_Registration_Info_UEnum_EVaRestRequestContentType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 383282819U) },
+		{ EVaRestRequestStatus_StaticEnum, TEXT("EVaRestRequestStatus"), &Z_Registration_Info_UEnum_EVaRestRequestStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 279687955U) },
+		{ EVaRestHttpStatusCode_StaticEnum, TEXT("EVaRestHttpStatusCode"), &Z_Registration_Info_UEnum_EVaRestHttpStatusCode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2511497377U) },
 	};
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FVaRestURL::StaticStruct, Z_Construct_UScriptStruct_FVaRestURL_Statics::NewStructOps, TEXT("VaRestURL"), &Z_Registration_Info_UScriptStruct_VaRestURL, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVaRestURL), 3338805899U) },
+		{ FVaRestURL::StaticStruct, Z_Construct_UScriptStruct_FVaRestURL_Statics::NewStructOps, TEXT("VaRestURL"), &Z_Registration_Info_UScriptStruct_VaRestURL, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVaRestURL), 1309582213U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestTypes_h_100444754(TEXT("/Script/VaRest"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestTypes_h_1031312028(TEXT("/Script/VaRest"),
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestTypes_h_Statics::ScriptStructInfo),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestTypes_h_Statics::EnumInfo));
+	Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestTypes_h_Statics::ScriptStructInfo),
+	Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestTypes_h_Statics::EnumInfo));
 // End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

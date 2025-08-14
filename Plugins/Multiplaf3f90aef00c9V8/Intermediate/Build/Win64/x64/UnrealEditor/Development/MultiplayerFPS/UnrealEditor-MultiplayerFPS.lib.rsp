@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MultiplayerFPS.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Module.MultiplayerFPS.1.cpp.obj"
+"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Module.MultiplayerFPS.2.cpp.obj"
+"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Module.MultiplayerFPS.3.cpp.obj"
+"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Module.MultiplayerFPS.4.cpp.obj"
+"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Module.MultiplayerFPS.5.cpp.obj"
+"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Default.rc2.res"
+/OUT:"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\UnrealEditor-MultiplayerFPS.lib"

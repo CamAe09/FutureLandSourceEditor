@@ -29,10 +29,14 @@ struct Z_Construct_UFunction_UVaRestJsonObject_DecodeJson_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Construct Json object from string */" },
+#endif
 		{ "CPP_Default_bUseIncrementalParser", "true" },
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Construct Json object from string" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_JsonString_MetaData[] = {
 		{ "NativeConst", "" },
@@ -95,9 +99,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_EncodeJson_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Serialize Json to string (formatted with line breaks) */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Serialize Json to string (formatted with line breaks)" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
@@ -139,9 +147,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_EncodeJsonToSingleString_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Serialize Json to string (single string without line breaks) */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Serialize Json to string (single string without line breaks)" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
@@ -184,9 +196,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_GetArrayField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the field named FieldName as a Json Array */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the field named FieldName as a Json Array" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -239,9 +255,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_GetBoolArrayField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the field named FieldName as a Bool Array. Use it only if you're sure that array is uniform! */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the field named FieldName as a Bool Array. Use it only if you're sure that array is uniform!" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -294,9 +314,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_GetBoolField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the field named FieldName as a boolean. */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the field named FieldName as a boolean." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -351,9 +375,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_GetField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the field named FieldName as a JsonValue */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the field named FieldName as a JsonValue" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -402,9 +430,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_GetFieldNames_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns a list of field names that exist in the object */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns a list of field names that exist in the object" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue_Inner;
@@ -450,9 +482,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_GetFieldTypeString_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Gets the type of value as string for a given field */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets the type of value as string for a given field" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -502,9 +538,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_GetInt64Field_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the field named FieldName as an Int64. Ensures that the field is present and is of type Json number. */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the field named FieldName as an Int64. Ensures that the field is present and is of type Json number." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -554,9 +594,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_GetIntegerArrayField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the field named FieldName as a Number Array. Use it only if you're sure that array is uniform! */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the field named FieldName as a Number Array. Use it only if you're sure that array is uniform!" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -609,9 +653,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_GetIntegerField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the field named FieldName as an Integer. Ensures that the field is present and is of type Json number. */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the field named FieldName as an Integer. Ensures that the field is present and is of type Json number." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -661,9 +709,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_GetNumberArrayField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the field named FieldName as a Number Array. Use it only if you're sure that array is uniform!\n\x09 * Attn.!! float used instead of double to make the function blueprintable! */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the field named FieldName as a Number Array. Use it only if you're sure that array is uniform!\nAttn.!! float used instead of double to make the function blueprintable!" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -716,9 +768,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_GetNumberField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the field named FieldName as a number. Ensures that the field is present and is of type Json number.\n\x09 * Attn.!! float used instead of double to make the function blueprintable! */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the field named FieldName as a number. Ensures that the field is present and is of type Json number.\nAttn.!! float used instead of double to make the function blueprintable!" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -768,9 +824,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_GetObjectArrayField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the field named FieldName as an Object Array. Use it only if you're sure that array is uniform! */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the field named FieldName as an Object Array. Use it only if you're sure that array is uniform!" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -823,9 +883,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_GetObjectField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the field named FieldName as a Json object. */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the field named FieldName as a Json object." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -875,9 +939,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_GetStringArrayField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the field named FieldName as a String Array. Use it only if you're sure that array is uniform! */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the field named FieldName as a String Array. Use it only if you're sure that array is uniform!" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -930,9 +998,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_GetStringField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the field named FieldName as a string. */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the field named FieldName as a string." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -982,9 +1054,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_HasField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Checks to see if the FieldName exists in the object */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks to see if the FieldName exists in the object" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1039,9 +1115,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_MergeJsonObject_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Adds all of the fields from one json object to this one */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Adds all of the fields from one json object to this one" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_InJsonObject;
@@ -1093,9 +1173,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_RemoveField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Remove field named FieldName */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Remove field named FieldName" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1137,9 +1221,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_Reset_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Reset all internal data */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Reset all internal data" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -1174,9 +1262,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetArrayField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set an ObjectField named FieldName and value of Json Array */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set an ObjectField named FieldName and value of Json Array" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1233,9 +1325,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetBoolArrayField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set an ObjectField named FieldName and value of Bool Array */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set an ObjectField named FieldName and value of Bool Array" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1292,9 +1388,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetBoolField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set a boolean field named FieldName and value of InValue */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set a boolean field named FieldName and value of InValue" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1350,9 +1450,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Add a field named FieldName with a Value */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Add a field named FieldName with a Value" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1403,9 +1507,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetInt64Field_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Add a field named FieldName with Int64 as value. */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Add a field named FieldName with Int64 as value." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1456,9 +1564,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetIntegerField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Add a field named FieldName with Integer as value. */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Add a field named FieldName with Integer as value." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1508,9 +1620,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetMapFields_bool_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set a map of fields with bool values */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set a map of fields with bool values" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Fields_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1562,9 +1678,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetMapFields_int32_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set a map of fields with int32 values */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set a map of fields with int32 values" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Fields_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1616,9 +1736,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetMapFields_int64_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set a map of fields with int64 values */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set a map of fields with int64 values" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Fields_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1670,9 +1794,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetMapFields_string_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set a map of fields with String values */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set a map of fields with String values" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Fields_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1724,9 +1852,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetMapFields_uint8_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set a map of fields with uint8 values */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set a map of fields with uint8 values" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Fields_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1779,9 +1911,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetNumberArrayField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** DEPRECATED Attn.!! float used instead of double to make the function blueprintable! */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DEPRECATED Attn.!! float used instead of double to make the function blueprintable!" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1838,9 +1974,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetNumberArrayFieldDouble_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set an ObjectField named FieldName and value of Number Array */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set an ObjectField named FieldName and value of Number Array" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1897,9 +2037,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetNumberField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** DEPRECATED Attn.!! float used instead of double to make the function blueprintable! */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DEPRECATED Attn.!! float used instead of double to make the function blueprintable!" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1950,9 +2094,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetNumberFieldDouble_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Add a field named FieldName with Number as value */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Add a field named FieldName with Number as value" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -2003,9 +2151,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetObjectArrayField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set an ObjectField named FieldName and value of Ob Array */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set an ObjectField named FieldName and value of Ob Array" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -2062,9 +2214,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetObjectField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set an ObjectField named FieldName and value of JsonObject */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set an ObjectField named FieldName and value of JsonObject" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -2115,9 +2271,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetStringArrayField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set an ObjectField named FieldName and value of String Array */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set an ObjectField named FieldName and value of String Array" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -2174,9 +2334,13 @@ struct Z_Construct_UFunction_UVaRestJsonObject_SetStringField_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Add a field named FieldName with value of StringValue */" },
+#endif
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Add a field named FieldName with value of StringValue" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FieldName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -2231,10 +2395,14 @@ struct Z_Construct_UFunction_UVaRestJsonObject_WriteToFilePath_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "VaRest|Json" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Blueprint Save json to filepath\n\x09 *\n\x09 * @param bIsRelativeToProjectDir If set to 'false' path is treated as absolute\n\x09 */" },
+#endif
 		{ "CPP_Default_bIsRelativeToProjectDir", "true" },
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Blueprint Save json to filepath\n\n@param bIsRelativeToProjectDir If set to 'false' path is treated as absolute" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Path_MetaData[] = {
 		{ "NativeConst", "" },
@@ -2350,57 +2518,61 @@ struct Z_Construct_UClass_UVaRestJsonObject_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Blueprintable FJsonObject wrapper\n */" },
+#endif
 		{ "IncludePath", "VaRestJsonObject.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/VaRestJsonObject.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Blueprintable FJsonObject wrapper" },
+#endif
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UVaRestJsonObject_DecodeJson, "DecodeJson" }, // 1901111193
-		{ &Z_Construct_UFunction_UVaRestJsonObject_EncodeJson, "EncodeJson" }, // 742274504
-		{ &Z_Construct_UFunction_UVaRestJsonObject_EncodeJsonToSingleString, "EncodeJsonToSingleString" }, // 2075713755
-		{ &Z_Construct_UFunction_UVaRestJsonObject_GetArrayField, "GetArrayField" }, // 2736484333
-		{ &Z_Construct_UFunction_UVaRestJsonObject_GetBoolArrayField, "GetBoolArrayField" }, // 4288901829
-		{ &Z_Construct_UFunction_UVaRestJsonObject_GetBoolField, "GetBoolField" }, // 3986225623
-		{ &Z_Construct_UFunction_UVaRestJsonObject_GetField, "GetField" }, // 336710177
-		{ &Z_Construct_UFunction_UVaRestJsonObject_GetFieldNames, "GetFieldNames" }, // 717779724
-		{ &Z_Construct_UFunction_UVaRestJsonObject_GetFieldTypeString, "GetFieldTypeString" }, // 2423887034
-		{ &Z_Construct_UFunction_UVaRestJsonObject_GetInt64Field, "GetInt64Field" }, // 3929504891
-		{ &Z_Construct_UFunction_UVaRestJsonObject_GetIntegerArrayField, "GetIntegerArrayField" }, // 2840704801
-		{ &Z_Construct_UFunction_UVaRestJsonObject_GetIntegerField, "GetIntegerField" }, // 4177463370
-		{ &Z_Construct_UFunction_UVaRestJsonObject_GetNumberArrayField, "GetNumberArrayField" }, // 3241737971
-		{ &Z_Construct_UFunction_UVaRestJsonObject_GetNumberField, "GetNumberField" }, // 1843717275
-		{ &Z_Construct_UFunction_UVaRestJsonObject_GetObjectArrayField, "GetObjectArrayField" }, // 3523175561
-		{ &Z_Construct_UFunction_UVaRestJsonObject_GetObjectField, "GetObjectField" }, // 3208634730
-		{ &Z_Construct_UFunction_UVaRestJsonObject_GetStringArrayField, "GetStringArrayField" }, // 929263160
-		{ &Z_Construct_UFunction_UVaRestJsonObject_GetStringField, "GetStringField" }, // 288494809
-		{ &Z_Construct_UFunction_UVaRestJsonObject_HasField, "HasField" }, // 2161481506
-		{ &Z_Construct_UFunction_UVaRestJsonObject_MergeJsonObject, "MergeJsonObject" }, // 904268356
-		{ &Z_Construct_UFunction_UVaRestJsonObject_RemoveField, "RemoveField" }, // 2055278748
-		{ &Z_Construct_UFunction_UVaRestJsonObject_Reset, "Reset" }, // 499376893
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetArrayField, "SetArrayField" }, // 289824308
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetBoolArrayField, "SetBoolArrayField" }, // 3994585656
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetBoolField, "SetBoolField" }, // 501036969
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetField, "SetField" }, // 390710393
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetInt64Field, "SetInt64Field" }, // 1311978141
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetIntegerField, "SetIntegerField" }, // 639843931
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetMapFields_bool, "SetMapFields_bool" }, // 1518113762
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetMapFields_int32, "SetMapFields_int32" }, // 3977604540
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetMapFields_int64, "SetMapFields_int64" }, // 3312646664
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetMapFields_string, "SetMapFields_string" }, // 1231474371
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetMapFields_uint8, "SetMapFields_uint8" }, // 3433493321
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetNumberArrayField, "SetNumberArrayField" }, // 1311234441
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetNumberArrayFieldDouble, "SetNumberArrayFieldDouble" }, // 789786950
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetNumberField, "SetNumberField" }, // 403762410
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetNumberFieldDouble, "SetNumberFieldDouble" }, // 1467811739
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetObjectArrayField, "SetObjectArrayField" }, // 787734426
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetObjectField, "SetObjectField" }, // 1446123463
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetStringArrayField, "SetStringArrayField" }, // 516424193
-		{ &Z_Construct_UFunction_UVaRestJsonObject_SetStringField, "SetStringField" }, // 3966097807
-		{ &Z_Construct_UFunction_UVaRestJsonObject_WriteToFilePath, "WriteToFilePath" }, // 2738968810
+		{ &Z_Construct_UFunction_UVaRestJsonObject_DecodeJson, "DecodeJson" }, // 2337969601
+		{ &Z_Construct_UFunction_UVaRestJsonObject_EncodeJson, "EncodeJson" }, // 3865978206
+		{ &Z_Construct_UFunction_UVaRestJsonObject_EncodeJsonToSingleString, "EncodeJsonToSingleString" }, // 638989754
+		{ &Z_Construct_UFunction_UVaRestJsonObject_GetArrayField, "GetArrayField" }, // 96876917
+		{ &Z_Construct_UFunction_UVaRestJsonObject_GetBoolArrayField, "GetBoolArrayField" }, // 3089455137
+		{ &Z_Construct_UFunction_UVaRestJsonObject_GetBoolField, "GetBoolField" }, // 786915566
+		{ &Z_Construct_UFunction_UVaRestJsonObject_GetField, "GetField" }, // 3624018875
+		{ &Z_Construct_UFunction_UVaRestJsonObject_GetFieldNames, "GetFieldNames" }, // 1486130141
+		{ &Z_Construct_UFunction_UVaRestJsonObject_GetFieldTypeString, "GetFieldTypeString" }, // 1691153104
+		{ &Z_Construct_UFunction_UVaRestJsonObject_GetInt64Field, "GetInt64Field" }, // 2499686470
+		{ &Z_Construct_UFunction_UVaRestJsonObject_GetIntegerArrayField, "GetIntegerArrayField" }, // 553230123
+		{ &Z_Construct_UFunction_UVaRestJsonObject_GetIntegerField, "GetIntegerField" }, // 854322028
+		{ &Z_Construct_UFunction_UVaRestJsonObject_GetNumberArrayField, "GetNumberArrayField" }, // 953621776
+		{ &Z_Construct_UFunction_UVaRestJsonObject_GetNumberField, "GetNumberField" }, // 697069501
+		{ &Z_Construct_UFunction_UVaRestJsonObject_GetObjectArrayField, "GetObjectArrayField" }, // 1890387568
+		{ &Z_Construct_UFunction_UVaRestJsonObject_GetObjectField, "GetObjectField" }, // 204591350
+		{ &Z_Construct_UFunction_UVaRestJsonObject_GetStringArrayField, "GetStringArrayField" }, // 2548004766
+		{ &Z_Construct_UFunction_UVaRestJsonObject_GetStringField, "GetStringField" }, // 2121544337
+		{ &Z_Construct_UFunction_UVaRestJsonObject_HasField, "HasField" }, // 2760734633
+		{ &Z_Construct_UFunction_UVaRestJsonObject_MergeJsonObject, "MergeJsonObject" }, // 1755575115
+		{ &Z_Construct_UFunction_UVaRestJsonObject_RemoveField, "RemoveField" }, // 4083884359
+		{ &Z_Construct_UFunction_UVaRestJsonObject_Reset, "Reset" }, // 2323449990
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetArrayField, "SetArrayField" }, // 762260594
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetBoolArrayField, "SetBoolArrayField" }, // 3240985864
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetBoolField, "SetBoolField" }, // 3856644283
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetField, "SetField" }, // 3133965244
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetInt64Field, "SetInt64Field" }, // 3816059262
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetIntegerField, "SetIntegerField" }, // 3831860943
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetMapFields_bool, "SetMapFields_bool" }, // 2428362025
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetMapFields_int32, "SetMapFields_int32" }, // 656757317
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetMapFields_int64, "SetMapFields_int64" }, // 1262920699
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetMapFields_string, "SetMapFields_string" }, // 1329568329
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetMapFields_uint8, "SetMapFields_uint8" }, // 1206030342
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetNumberArrayField, "SetNumberArrayField" }, // 310062721
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetNumberArrayFieldDouble, "SetNumberArrayFieldDouble" }, // 558212632
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetNumberField, "SetNumberField" }, // 2681413228
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetNumberFieldDouble, "SetNumberFieldDouble" }, // 1538859118
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetObjectArrayField, "SetObjectArrayField" }, // 2205181799
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetObjectField, "SetObjectField" }, // 3309570113
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetStringArrayField, "SetStringArrayField" }, // 1140236889
+		{ &Z_Construct_UFunction_UVaRestJsonObject_SetStringField, "SetStringField" }, // 4210780773
+		{ &Z_Construct_UFunction_UVaRestJsonObject_WriteToFilePath, "WriteToFilePath" }, // 1229030781
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -2445,14 +2617,14 @@ UVaRestJsonObject::~UVaRestJsonObject() {}
 // End Class UVaRestJsonObject
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestJsonObject_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestJsonObject_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UVaRestJsonObject, UVaRestJsonObject::StaticClass, TEXT("UVaRestJsonObject"), &Z_Registration_Info_UClass_UVaRestJsonObject, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVaRestJsonObject), 2725326921U) },
+		{ Z_Construct_UClass_UVaRestJsonObject, UVaRestJsonObject::StaticClass, TEXT("UVaRestJsonObject"), &Z_Registration_Info_UClass_UVaRestJsonObject, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVaRestJsonObject), 3000510635U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestJsonObject_h_855383311(TEXT("/Script/VaRest"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestJsonObject_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestJsonObject_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestJsonObject_h_2059399796(TEXT("/Script/VaRest"),
+	Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestJsonObject_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestJsonObject_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

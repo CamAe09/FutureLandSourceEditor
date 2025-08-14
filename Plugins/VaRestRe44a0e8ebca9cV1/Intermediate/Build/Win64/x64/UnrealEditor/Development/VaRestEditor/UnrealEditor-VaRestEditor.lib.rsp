@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-VaRestEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\Module.VaRestEditor.cpp.obj"
+"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\Default.rc2.res"
+/OUT:"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\UnrealEditor-VaRestEditor.lib"

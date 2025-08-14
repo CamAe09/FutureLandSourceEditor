@@ -1206,7 +1206,9 @@ struct Z_Construct_UClass_UMultiplayerHealthComponent_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OwningPlayerController_MetaData[] = {
 		{ "Category", "Variables" },
 		{ "ModuleRelativePath", "Public/MultiplayerHealthComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies when attached to players" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StartHealthRegenTimerHandle_MetaData[] = {
 		{ "Category", "Timers" },
@@ -1357,14 +1359,14 @@ UMultiplayerHealthComponent::~UMultiplayerHealthComponent() {}
 // End Class UMultiplayerHealthComponent
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UMultiplayerHealthComponent, UMultiplayerHealthComponent::StaticClass, TEXT("UMultiplayerHealthComponent"), &Z_Registration_Info_UClass_UMultiplayerHealthComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMultiplayerHealthComponent), 2656748034U) },
+		{ Z_Construct_UClass_UMultiplayerHealthComponent, UMultiplayerHealthComponent::StaticClass, TEXT("UMultiplayerHealthComponent"), &Z_Registration_Info_UClass_UMultiplayerHealthComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMultiplayerHealthComponent), 683959567U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_1705891563(TEXT("/Script/MultiplayerFPS"),
-	Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_3616461009(TEXT("/Script/MultiplayerFPS"),
+	Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration
