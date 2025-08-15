@@ -1,8 +1,15 @@
 /I "."
+<<<<<<< HEAD
 /I "D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Source\VaRest\Private"
 /I "D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\UnrealEditor\Inc\VaRest\UHT"
 /I "D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Source"
 /I "D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Source\VaRest\Public"
+=======
+/I "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Source\VaRest\Private"
+/I "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\UnrealEditor\Inc\VaRest\UHT"
+/I "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Source"
+/I "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Source\VaRest\Public"
+>>>>>>> ea849a9 (map stuff)
 /I "Runtime\Core\Public"
 /I "Runtime\Core\Internal"
 /I "Runtime\TraceLog\Public"

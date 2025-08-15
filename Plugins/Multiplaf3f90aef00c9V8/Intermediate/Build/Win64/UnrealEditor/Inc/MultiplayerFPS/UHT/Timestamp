@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\InteractableItem.h
 C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\MultiplayerBulletCasing.h
 C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\MultiplayerCharacter.h
@@ -21,3 +22,15 @@ C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multipla
 C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\MultiplayerProjectile.h
 C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\MultiplayerGun.h
 >>>>>>> parent of ea849a9 (map stuff)
+=======
+D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\InteractableItem.h
+D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\MultiplayerGun.h
+D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\MultiplayerHealthComponent.h
+D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\MultiplayerProjectile.h
+D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\MultiplayerBulletCasing.h
+D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\MultiplayerPlayerController.h
+D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\UI\WidgetMasterClass.h
+D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\UI\UI_HUD.h
+D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\MultiplayerCharacter.h
+D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\MultiplayerGameMode.h
+>>>>>>> ea849a9 (map stuff)

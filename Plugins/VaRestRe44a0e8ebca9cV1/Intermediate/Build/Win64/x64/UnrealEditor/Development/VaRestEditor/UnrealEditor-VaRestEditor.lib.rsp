@@ -7,6 +7,7 @@
 /IGNORE:4221
 /NODEFAULTLIB
 <<<<<<< HEAD
+<<<<<<< HEAD
 "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
 =======
 "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
@@ -14,3 +15,11 @@
 "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\Module.VaRestEditor.cpp.obj"
 "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\Default.rc2.res"
 /OUT:"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\UnrealEditor-VaRestEditor.lib"
+=======
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\Module.VaRestEditor.cpp.obj"
+"D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\VaRestEditor.init.gen.cpp.obj"
+"D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\VaRest_BreakJson.gen.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\UnrealEditor-VaRestEditor.lib"
+>>>>>>> ea849a9 (map stuff)

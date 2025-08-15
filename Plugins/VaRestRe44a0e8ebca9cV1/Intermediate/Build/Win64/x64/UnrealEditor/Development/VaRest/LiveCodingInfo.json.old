@@ -2,6 +2,17 @@
 	"RemapUnityFiles": 
 	{
 		"Module.VaRest.cpp.obj": [
+<<<<<<< HEAD
+=======
+			"VaRest.init.gen.cpp.obj",
+			"VaRestJsonObject.gen.cpp.obj",
+			"VaRestJsonValue.gen.cpp.obj",
+			"VaRestLibrary.gen.cpp.obj",
+			"VaRestRequestJSON.gen.cpp.obj",
+			"VaRestSettings.gen.cpp.obj",
+			"VaRestSubsystem.gen.cpp.obj",
+			"VaRestTypes.gen.cpp.obj",
+>>>>>>> ea849a9 (map stuff)
 			"PerModuleInline.gen.cpp.obj",
 			"VaRest.cpp.obj",
 			"VaRestJsonObject.cpp.obj",
@@ -10,6 +21,7 @@
 			"VaRestLibrary.cpp.obj",
 			"VaRestRequestJSON.cpp.obj",
 			"VaRestSettings.cpp.obj",
+<<<<<<< HEAD
 			"VaRestSubsystem.cpp.obj",
 			"VaRest.init.gen.cpp.obj",
 			"VaRestJsonObject.gen.cpp.obj",
@@ -19,6 +31,9 @@
 			"VaRestSettings.gen.cpp.obj",
 			"VaRestSubsystem.gen.cpp.obj",
 			"VaRestTypes.gen.cpp.obj"
+=======
+			"VaRestSubsystem.cpp.obj"
+>>>>>>> ea849a9 (map stuff)
 		]
 	}
 }

@@ -8,6 +8,7 @@
 /NODEFAULTLIB
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
 "D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRest\Module.VaRest.cpp.obj"
+<<<<<<< HEAD
 "D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRest\VaRest.init.gen.cpp.obj"
 "D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRest\VaRestJsonObject.gen.cpp.obj"
 "D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRest\VaRestJsonValue.gen.cpp.obj"
@@ -16,5 +17,7 @@
 "D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRest\VaRestSettings.gen.cpp.obj"
 "D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRest\VaRestSubsystem.gen.cpp.obj"
 "D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRest\VaRestTypes.gen.cpp.obj"
+=======
+>>>>>>> ea849a9 (map stuff)
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
 /OUT:"D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRest\UnrealEditor-VaRest.lib"

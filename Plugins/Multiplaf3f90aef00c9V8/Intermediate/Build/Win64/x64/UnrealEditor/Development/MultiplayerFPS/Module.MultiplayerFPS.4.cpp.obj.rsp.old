@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Module.MultiplayerFPS.4.cpp"
 /FI"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
 /FI"D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Definitions.MultiplayerFPS.h"
@@ -7,6 +8,17 @@
 /experimental:log "D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Module.MultiplayerFPS.4.cpp.sarif"
 /sourceDependencies "D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Module.MultiplayerFPS.4.cpp.dep.json"
 @"D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\MultiplayerFPS.Shared.rsp"
+=======
+"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Module.MultiplayerFPS.4.cpp"
+/FI"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Definitions.MultiplayerFPS.h"
+/Yu"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Module.MultiplayerFPS.4.cpp.obj"
+/experimental:log "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Module.MultiplayerFPS.4.cpp.sarif"
+/sourceDependencies "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Module.MultiplayerFPS.4.cpp.dep.json"
+@"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\MultiplayerFPS.Shared.rsp"
+>>>>>>> ea849a9 (map stuff)
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo

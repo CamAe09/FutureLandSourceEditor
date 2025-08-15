@@ -8,7 +8,10 @@
 /NODEFAULTLIB
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
 "D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\Module.VaRestEditor.cpp.obj"
+<<<<<<< HEAD
 "D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\VaRestEditor.init.gen.cpp.obj"
 "D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\VaRest_BreakJson.gen.cpp.obj"
+=======
+>>>>>>> ea849a9 (map stuff)
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
 /OUT:"D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\UnrealEditor-VaRestEditor.lib"

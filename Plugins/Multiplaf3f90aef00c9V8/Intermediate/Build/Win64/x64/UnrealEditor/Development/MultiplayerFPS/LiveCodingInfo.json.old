@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.MultiplayerFPS.1.cpp.obj": [
+<<<<<<< HEAD
 			"PerModuleInline.gen.cpp.obj",
 			"InteractableItem.gen.cpp.obj",
 			"MultiplayerBulletCasing.gen.cpp.obj",
@@ -16,6 +17,28 @@
 			"WidgetMasterClass.gen.cpp.obj"
 		],
 		"Module.MultiplayerFPS.2.cpp.obj": [
+=======
+			"InteractableItem.gen.cpp.obj",
+			"MultiplayerBulletCasing.gen.cpp.obj",
+			"MultiplayerCharacter.gen.cpp.obj"
+		],
+		"Module.MultiplayerFPS.2.cpp.obj": [
+			"MultiplayerFPS.init.gen.cpp.obj",
+			"MultiplayerGameMode.gen.cpp.obj",
+			"MultiplayerGun.gen.cpp.obj"
+		],
+		"Module.MultiplayerFPS.3.cpp.obj": [
+			"MultiplayerHealthComponent.gen.cpp.obj",
+			"MultiplayerPlayerController.gen.cpp.obj"
+		],
+		"Module.MultiplayerFPS.4.cpp.obj": [
+			"MultiplayerProjectile.gen.cpp.obj"
+		],
+		"Module.MultiplayerFPS.5.cpp.obj": [
+			"UI_HUD.gen.cpp.obj",
+			"WidgetMasterClass.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+>>>>>>> ea849a9 (map stuff)
 			"InteractableItem.cpp.obj",
 			"MultiplayerBulletCasing.cpp.obj",
 			"MultiplayerCharacter.cpp.obj",
@@ -25,7 +48,13 @@
 			"MultiplayerHealthComponent.cpp.obj",
 			"MultiplayerPlayerController.cpp.obj",
 			"MultiplayerProjectile.cpp.obj",
+<<<<<<< HEAD
 			"UI_HUD.cpp.obj",
+=======
+			"UI_HUD.cpp.obj"
+		],
+		"Module.MultiplayerFPS.6.cpp.obj": [
+>>>>>>> ea849a9 (map stuff)
 			"WidgetMasterClass.cpp.obj"
 		]
 	}

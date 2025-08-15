@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\Module.VaRestEditor.cpp"
 /FI"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
 /FI"D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\Definitions.VaRestEditor.h"
@@ -7,6 +8,17 @@
 /experimental:log "D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\Module.VaRestEditor.cpp.sarif"
 /sourceDependencies "D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\Module.VaRestEditor.cpp.dep.json"
 @"D:\futurelandseres\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\VaRestEditor.Shared.rsp"
+=======
+"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\Module.VaRestEditor.cpp"
+/FI"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\Definitions.VaRestEditor.h"
+/Yu"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\Module.VaRestEditor.cpp.obj"
+/experimental:log "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\Module.VaRestEditor.cpp.sarif"
+/sourceDependencies "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\Module.VaRestEditor.cpp.dep.json"
+@"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\VaRestEditor.Shared.rsp"
+>>>>>>> ea849a9 (map stuff)
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo

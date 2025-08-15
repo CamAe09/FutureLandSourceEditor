@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define VAREST_VaRestTypes_generated_h
 
-#define FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestTypes_h_149_GENERATED_BODY \
+#define FID_futurelandseres_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestTypes_h_149_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FVaRestURL_Statics; \
 	static class UScriptStruct* StaticStruct();
 
@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> VAREST_API UScriptStruct* StaticStruct<struct FVaRestURL>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_camev_Documents_Unreal_Projects_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestTypes_h
+#define CURRENT_FILE_ID FID_futurelandseres_FutureLandSourceEditor_Plugins_VaRestRe44a0e8ebca9cV1_Source_VaRest_Public_VaRestTypes_h
 
 
 #define FOREACH_ENUM_EVARESTREQUESTVERB(op) \

@@ -2,11 +2,19 @@
 	"RemapUnityFiles": 
 	{
 		"Module.VaRestEditor.cpp.obj": [
+<<<<<<< HEAD
 			"PerModuleInline.gen.cpp.obj",
 			"VaRestEditor.cpp.obj",
 			"VaRest_BreakJson.cpp.obj",
 			"VaRestEditor.init.gen.cpp.obj",
 			"VaRest_BreakJson.gen.cpp.obj"
+=======
+			"VaRestEditor.init.gen.cpp.obj",
+			"VaRest_BreakJson.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"VaRestEditor.cpp.obj",
+			"VaRest_BreakJson.cpp.obj"
+>>>>>>> ea849a9 (map stuff)
 		]
 	}
 }
