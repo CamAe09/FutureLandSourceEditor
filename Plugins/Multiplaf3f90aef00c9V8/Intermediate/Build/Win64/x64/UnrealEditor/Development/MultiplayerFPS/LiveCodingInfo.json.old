@@ -1,0 +1,32 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MultiplayerFPS.1.cpp.obj": [
+			"PerModuleInline.gen.cpp.obj",
+			"InteractableItem.gen.cpp.obj",
+			"MultiplayerBulletCasing.gen.cpp.obj",
+			"MultiplayerCharacter.gen.cpp.obj",
+			"MultiplayerFPS.init.gen.cpp.obj",
+			"MultiplayerGameMode.gen.cpp.obj",
+			"MultiplayerGun.gen.cpp.obj",
+			"MultiplayerHealthComponent.gen.cpp.obj",
+			"MultiplayerPlayerController.gen.cpp.obj",
+			"MultiplayerProjectile.gen.cpp.obj",
+			"UI_HUD.gen.cpp.obj",
+			"WidgetMasterClass.gen.cpp.obj"
+		],
+		"Module.MultiplayerFPS.2.cpp.obj": [
+			"InteractableItem.cpp.obj",
+			"MultiplayerBulletCasing.cpp.obj",
+			"MultiplayerCharacter.cpp.obj",
+			"MultiplayerFPS.cpp.obj",
+			"MultiplayerGameMode.cpp.obj",
+			"MultiplayerGun.cpp.obj",
+			"MultiplayerHealthComponent.cpp.obj",
+			"MultiplayerPlayerController.cpp.obj",
+			"MultiplayerProjectile.cpp.obj",
+			"UI_HUD.cpp.obj",
+			"WidgetMasterClass.cpp.obj"
+		]
+	}
+}
