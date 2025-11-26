@@ -16,7 +16,11 @@ class APlayerController;
 #endif
 #define MULTIPLAYERFPS_MultiplayerGameMode_generated_h
 
+<<<<<<< HEAD
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+=======
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+>>>>>>> parent of f0bfb2a (SLN)
 	DECLARE_FUNCTION(execGetAllPlayerPawns); \
 	DECLARE_FUNCTION(execRemovePlayerPawn); \
 	DECLARE_FUNCTION(execAddPlayerPawn); \
@@ -25,7 +29,11 @@ class APlayerController;
 	DECLARE_FUNCTION(execAddPlayerController);
 
 
+<<<<<<< HEAD
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGameMode_h_12_INCLASS_NO_PURE_DECLS \
+=======
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGameMode_h_12_INCLASS_NO_PURE_DECLS \
+>>>>>>> parent of f0bfb2a (SLN)
 private: \
 	static void StaticRegisterNativesAMultiplayerGameMode(); \
 	friend struct Z_Construct_UClass_AMultiplayerGameMode_Statics; \
@@ -34,7 +42,11 @@ public: \
 	DECLARE_SERIALIZER(AMultiplayerGameMode)
 
 
+<<<<<<< HEAD
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGameMode_h_12_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGameMode_h_12_ENHANCED_CONSTRUCTORS \
+>>>>>>> parent of f0bfb2a (SLN)
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMultiplayerGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -48,6 +60,7 @@ public: \
 	NO_API virtual ~AMultiplayerGameMode();
 
 
+<<<<<<< HEAD
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGameMode_h_9_PROLOG
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGameMode_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
@@ -55,6 +68,15 @@ public: \
 	FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGameMode_h_12_INCLASS_NO_PURE_DECLS \
 	FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGameMode_h_12_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGameMode_h_9_PROLOG
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGameMode_h_12_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGameMode_h_12_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGameMode_h_12_ENHANCED_CONSTRUCTORS \
+>>>>>>> parent of f0bfb2a (SLN)
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -62,7 +84,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MULTIPLAYERFPS_API UClass* StaticClass<class AMultiplayerGameMode>();
 
 #undef CURRENT_FILE_ID
+<<<<<<< HEAD
 #define CURRENT_FILE_ID FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGameMode_h
+=======
+#define CURRENT_FILE_ID FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGameMode_h
+>>>>>>> parent of f0bfb2a (SLN)
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

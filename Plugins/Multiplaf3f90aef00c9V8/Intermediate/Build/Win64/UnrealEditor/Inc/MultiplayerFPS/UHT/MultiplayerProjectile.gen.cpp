@@ -4407,9 +4407,7 @@ struct Z_Construct_UFunction_AMultiplayerProjectile_SoftDestroyProjectile_Static
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Functions" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This will hide the projectile if you need it to not be actually destroyed but still hidden" },
-#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -4649,24 +4647,18 @@ struct Z_Construct_UClass_AMultiplayerProjectile_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LaunchPhysicsObjects_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "For this to replicate you need to replicate movement for the actor you're launching" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LaunchObjectStrength_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ClampMin", "0.001000" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if LaunchPhysicsObjects = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LaunchObjectVelocityChange_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if LaunchPhysicsObjects = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_IsExplosive_MetaData[] = {
 		{ "Category", "Damage" },
@@ -4685,17 +4677,13 @@ struct Z_Construct_UClass_AMultiplayerProjectile_Statics
 		{ "ClampMax", "2" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "0 = just apply damage, 1 = apply damage and execute ExecuteHitFunction(), 2 = just execute ExecuteHitFunction(), to use this override the ExecuteHitFunction() or add event ExecuteHitFunction, for projectiles you will need to define this function in the projectile, this function only runs on server" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BulletHitModeDelay_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ClampMin", "0.000000" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if BulletHitMode equals 1 or 2, and works better for projectiles, set to 0 to disable" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ExplosionIgnoredActors_MetaData[] = {
 		{ "Category", "Damage" },
@@ -4709,9 +4697,7 @@ struct Z_Construct_UClass_AMultiplayerProjectile_Statics
 		{ "Category", "Projectile" },
 		{ "ClampMin", "0.000000" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This will determine the amount of time before explosive projectiles explode if they don't hit anything, 0 = disabled, only applies if UseProjectile and IsExplosive are true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultDamage_MetaData[] = {
 		{ "Category", "Damage" },
@@ -4720,9 +4706,7 @@ struct Z_Construct_UClass_AMultiplayerProjectile_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Damage_MetaData[] = {
 		{ "Category", "Damage" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Add pysical materials like the head to apply different damage, if left blank it will just apply default damage" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ExplosiveDamageRadius_MetaData[] = {
 		{ "Category", "Damage" },
@@ -4739,23 +4723,17 @@ struct Z_Construct_UClass_AMultiplayerProjectile_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DamageFalloffMultiplierAtRange_MetaData[] = {
 		{ "Category", "Damage" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "The first float is the distance traveled and the second float is the damage multiplier at that range, values above 1 do more damage, does not apply to explosives" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InterpolateDamageBetweenRanges_MetaData[] = {
 		{ "Category", "Damage" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if DamageFalloffMultiplierAtRange has 2 or more values, if the target distance is in between 2 distances in the DamageFalloffMultiplierAtRange variable the damage will also be in between the 2 damages in the DamageFalloffMultiplierAtRange variable" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PrintDistanceTraveled_MetaData[] = {
 		{ "Category", "Damage" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This will print a string showing how far the bullet went" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FireLocation_MetaData[] = {
 		{ "Category", "Damage" },
@@ -4772,9 +4750,7 @@ struct Z_Construct_UClass_AMultiplayerProjectile_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HitEffects_MetaData[] = {
 		{ "Category", "Hit Effects" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Add pysical materials like the head to spawn different particle effects, if left blank it will just use the default hit effect" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultBulletHitSound_MetaData[] = {
 		{ "Category", "Hit Effects" },
@@ -4791,9 +4767,7 @@ struct Z_Construct_UClass_AMultiplayerProjectile_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BulletHitDecals_MetaData[] = {
 		{ "Category", "Hit Effects" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Using the physical material allows you to have a different decal for each surface" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BulletHitDecalSize_MetaData[] = {
 		{ "Category", "Hit Effects" },
@@ -4816,23 +4790,17 @@ struct Z_Construct_UClass_AMultiplayerProjectile_Statics
 		{ "ClampMax", "2" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "0 = hit actor classes, 1 = hit physical materials, 2 = prioritize physical material but fallback on actor class, does not apply to explosives" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HitMarkerActorSounds_MetaData[] = {
 		{ "Category", "Hit Effects" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if UseActorClassesForHitMarkers = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HitMarkerSurfaceSounds_MetaData[] = {
 		{ "Category", "Hit Effects" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Using the physical material allows you to have a different sound for each surface, only applies if UseActorClassesForHitMarkers = false" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CanCrumbleDestructibleMeshes_MetaData[] = {
 		{ "Category", "Chaos Destruction" },
@@ -4841,23 +4809,17 @@ struct Z_Construct_UClass_AMultiplayerProjectile_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DestructionSphereSize_MetaData[] = {
 		{ "Category", "Chaos Destruction" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Also set this for explosives, destruction sphere will use this not damage radius" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DestructionSphereToSpawn_MetaData[] = {
 		{ "Category", "Chaos Destruction" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is used to destroy destructible meshes, make this either FS_MasterField or a child of it" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BulletHitControllerVibration_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerProjectile.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This also applies to explosives, clear this to disable" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BulletHitControllerVibrationAttenuation_MetaData[] = {
 		{ "Category", "Firing" },
@@ -5052,7 +5014,7 @@ struct Z_Construct_UClass_AMultiplayerProjectile_Statics
 		{ &Z_Construct_UFunction_AMultiplayerProjectile_SetUseActorClassesForHitMarkers, "SetUseActorClassesForHitMarkers" }, // 147834330
 		{ &Z_Construct_UFunction_AMultiplayerProjectile_SetWhizzingSoundVolumeBasedOnSpeed, "SetWhizzingSoundVolumeBasedOnSpeed" }, // 1329108446
 		{ &Z_Construct_UFunction_AMultiplayerProjectile_SilenceBulletWhizzingSound, "SilenceBulletWhizzingSound" }, // 408612587
-		{ &Z_Construct_UFunction_AMultiplayerProjectile_SoftDestroyProjectile, "SoftDestroyProjectile" }, // 3313441226
+		{ &Z_Construct_UFunction_AMultiplayerProjectile_SoftDestroyProjectile, "SoftDestroyProjectile" }, // 3220719312
 		{ &Z_Construct_UFunction_AMultiplayerProjectile_SpawnHitParticleEffect, "SpawnHitParticleEffect" }, // 3940634715
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -5286,14 +5248,23 @@ AMultiplayerProjectile::~AMultiplayerProjectile() {}
 // End Class AMultiplayerProjectile
 
 // Begin Registration
+<<<<<<< HEAD
 struct Z_CompiledInDeferFile_FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_Statics
+=======
+struct Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_Statics
+>>>>>>> parent of f0bfb2a (SLN)
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMultiplayerProjectile, AMultiplayerProjectile::StaticClass, TEXT("AMultiplayerProjectile"), &Z_Registration_Info_UClass_AMultiplayerProjectile, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMultiplayerProjectile), 1761578586U) },
+		{ Z_Construct_UClass_AMultiplayerProjectile, AMultiplayerProjectile::StaticClass, TEXT("AMultiplayerProjectile"), &Z_Registration_Info_UClass_AMultiplayerProjectile, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMultiplayerProjectile), 3300448655U) },
 	};
 };
+<<<<<<< HEAD
 static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_198913427(TEXT("/Script/MultiplayerFPS"),
 	Z_CompiledInDeferFile_FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_Statics::ClassInfo),
+=======
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_75727962(TEXT("/Script/MultiplayerFPS"),
+	Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_Statics::ClassInfo),
+>>>>>>> parent of f0bfb2a (SLN)
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

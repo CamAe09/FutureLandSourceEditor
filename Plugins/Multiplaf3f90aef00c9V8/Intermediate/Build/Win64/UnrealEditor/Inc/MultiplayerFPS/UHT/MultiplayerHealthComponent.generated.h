@@ -18,6 +18,7 @@ class UDamageType;
 #endif
 #define MULTIPLAYERFPS_MultiplayerHealthComponent_generated_h
 
+<<<<<<< HEAD
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_11_DELEGATE \
 MULTIPLAYERFPS_API void FOnHealthChanged_DelegateWrapper(const FMulticastScriptDelegate& OnHealthChanged, float NewHealth, bool IsRegenerating);
 
@@ -35,6 +36,25 @@ MULTIPLAYERFPS_API void FOnDieUnreplicated_DelegateWrapper(const FMulticastScrip
 
 
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+=======
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_11_DELEGATE \
+MULTIPLAYERFPS_API void FOnHealthChanged_DelegateWrapper(const FMulticastScriptDelegate& OnHealthChanged, float NewHealth, bool IsRegenerating);
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_14_DELEGATE \
+MULTIPLAYERFPS_API void FOnTakeDamage_DelegateWrapper(const FMulticastScriptDelegate& OnTakeDamage, int32 OldHealth, int32 NewHealth);
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_17_DELEGATE \
+MULTIPLAYERFPS_API void FOnDie_DelegateWrapper(const FMulticastScriptDelegate& OnDie);
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_20_DELEGATE \
+MULTIPLAYERFPS_API void FOnDieUnreplicated_DelegateWrapper(const FMulticastScriptDelegate& OnDieUnreplicated);
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+>>>>>>> parent of f0bfb2a (SLN)
 	virtual void MulticastDie_Implementation(); \
 	virtual void ServerDie_Implementation(); \
 	DECLARE_FUNCTION(execGetOwningPlayerController); \
@@ -61,8 +81,13 @@ MULTIPLAYERFPS_API void FOnDieUnreplicated_DelegateWrapper(const FMulticastScrip
 	DECLARE_FUNCTION(execOnDamaged);
 
 
+<<<<<<< HEAD
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_25_CALLBACK_WRAPPERS
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_25_INCLASS_NO_PURE_DECLS \
+=======
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_25_CALLBACK_WRAPPERS
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_25_INCLASS_NO_PURE_DECLS \
+>>>>>>> parent of f0bfb2a (SLN)
 private: \
 	static void StaticRegisterNativesUMultiplayerHealthComponent(); \
 	friend struct Z_Construct_UClass_UMultiplayerHealthComponent_Statics; \
@@ -85,7 +110,11 @@ public: \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
+<<<<<<< HEAD
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_25_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_25_ENHANCED_CONSTRUCTORS \
+>>>>>>> parent of f0bfb2a (SLN)
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UMultiplayerHealthComponent(UMultiplayerHealthComponent&&); \
@@ -97,6 +126,7 @@ public: \
 	NO_API virtual ~UMultiplayerHealthComponent();
 
 
+<<<<<<< HEAD
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_22_PROLOG
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_25_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
@@ -105,6 +135,16 @@ public: \
 	FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_25_CALLBACK_WRAPPERS \
 	FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_25_INCLASS_NO_PURE_DECLS \
 	FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_25_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_22_PROLOG
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_25_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_25_CALLBACK_WRAPPERS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_25_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h_25_ENHANCED_CONSTRUCTORS \
+>>>>>>> parent of f0bfb2a (SLN)
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -112,7 +152,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MULTIPLAYERFPS_API UClass* StaticClass<class UMultiplayerHealthComponent>();
 
 #undef CURRENT_FILE_ID
+<<<<<<< HEAD
 #define CURRENT_FILE_ID FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h
+=======
+#define CURRENT_FILE_ID FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerHealthComponent_h
+>>>>>>> parent of f0bfb2a (SLN)
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

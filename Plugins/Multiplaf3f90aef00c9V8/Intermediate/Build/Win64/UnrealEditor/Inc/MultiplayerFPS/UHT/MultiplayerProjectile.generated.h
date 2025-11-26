@@ -32,11 +32,19 @@ struct FHitResult;
 #endif
 #define MULTIPLAYERFPS_MultiplayerProjectile_generated_h
 
+<<<<<<< HEAD
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_14_DELEGATE \
 MULTIPLAYERFPS_API void FOnProjectileHit_DelegateWrapper(const FMulticastScriptDelegate& OnProjectileHit, AActor* ActorHit, UPhysicalMaterial* HitSurface);
 
 
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+=======
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_14_DELEGATE \
+MULTIPLAYERFPS_API void FOnProjectileHit_DelegateWrapper(const FMulticastScriptDelegate& OnProjectileHit, AActor* ActorHit, UPhysicalMaterial* HitSurface);
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+>>>>>>> parent of f0bfb2a (SLN)
 	virtual void MulticastSilenceBulletWhizzingSound_Implementation(); \
 	virtual void ServerSilenceBulletWhizzingSound_Implementation(); \
 	virtual void MulticastSoftDestroyProjectile_Implementation(); \
@@ -144,8 +152,13 @@ MULTIPLAYERFPS_API void FOnProjectileHit_DelegateWrapper(const FMulticastScriptD
 	DECLARE_FUNCTION(execDestroySelf);
 
 
+<<<<<<< HEAD
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_19_CALLBACK_WRAPPERS
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_19_INCLASS_NO_PURE_DECLS \
+=======
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_19_CALLBACK_WRAPPERS
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_19_INCLASS_NO_PURE_DECLS \
+>>>>>>> parent of f0bfb2a (SLN)
 private: \
 	static void StaticRegisterNativesAMultiplayerProjectile(); \
 	friend struct Z_Construct_UClass_AMultiplayerProjectile_Statics; \
@@ -165,7 +178,11 @@ public: \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
+<<<<<<< HEAD
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_19_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_19_ENHANCED_CONSTRUCTORS \
+>>>>>>> parent of f0bfb2a (SLN)
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AMultiplayerProjectile(AMultiplayerProjectile&&); \
@@ -177,6 +194,7 @@ public: \
 	NO_API virtual ~AMultiplayerProjectile();
 
 
+<<<<<<< HEAD
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_16_PROLOG
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
@@ -185,6 +203,16 @@ public: \
 	FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_19_CALLBACK_WRAPPERS \
 	FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_19_INCLASS_NO_PURE_DECLS \
 	FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_19_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_16_PROLOG
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_19_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_19_CALLBACK_WRAPPERS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_19_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerProjectile_h_19_ENHANCED_CONSTRUCTORS \
+>>>>>>> parent of f0bfb2a (SLN)
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -192,7 +220,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MULTIPLAYERFPS_API UClass* StaticClass<class AMultiplayerProjectile>();
 
 #undef CURRENT_FILE_ID
+<<<<<<< HEAD
 #define CURRENT_FILE_ID FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerProjectile_h
+=======
+#define CURRENT_FILE_ID FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerProjectile_h
+>>>>>>> parent of f0bfb2a (SLN)
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

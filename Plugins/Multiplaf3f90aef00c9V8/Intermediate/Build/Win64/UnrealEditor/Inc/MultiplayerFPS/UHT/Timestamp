@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\InteractableItem.h
 C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\MultiplayerBulletCasing.h
 C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\MultiplayerCharacter.h
@@ -34,3 +35,15 @@ D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\
 D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\MultiplayerCharacter.h
 D:\futurelandseres\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Source\MultiplayerFPS\Public\MultiplayerGameMode.h
 >>>>>>> ea849a9 (map stuff)
+=======
+D:\build\U5M\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\MultiplayerFPS\Source\MultiplayerFPS\Public\InteractableItem.h
+D:\build\U5M\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\MultiplayerFPS\Source\MultiplayerFPS\Public\MultiplayerBulletCasing.h
+D:\build\U5M\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\MultiplayerFPS\Source\MultiplayerFPS\Public\MultiplayerCharacter.h
+D:\build\U5M\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\MultiplayerFPS\Source\MultiplayerFPS\Public\MultiplayerGameMode.h
+D:\build\U5M\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\MultiplayerFPS\Source\MultiplayerFPS\Public\MultiplayerHealthComponent.h
+D:\build\U5M\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\MultiplayerFPS\Source\MultiplayerFPS\Public\MultiplayerGun.h
+D:\build\U5M\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\MultiplayerFPS\Source\MultiplayerFPS\Public\MultiplayerPlayerController.h
+D:\build\U5M\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\MultiplayerFPS\Source\MultiplayerFPS\Public\MultiplayerProjectile.h
+D:\build\U5M\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\MultiplayerFPS\Source\MultiplayerFPS\Public\UI\UI_HUD.h
+D:\build\U5M\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\MultiplayerFPS\Source\MultiplayerFPS\Public\UI\WidgetMasterClass.h
+>>>>>>> parent of f0bfb2a (SLN)

@@ -313,9 +313,7 @@ struct Z_Construct_UFunction_AMultiplayerGun_ApplyPerspective_Statics
 		{ "Category", "Functions" },
 		{ "CPP_Default_IsWeaponHolstered", "false" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Do not call this function, this is used in the character SetUsingThirdPerson funtion" },
-#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_ThirdPerson_SetBit(void* Obj);
@@ -709,9 +707,7 @@ struct Z_Construct_UFunction_AMultiplayerGun_CheckForOwner_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Functions" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This will make sure the owner is valid so if for example a player disconnects their gun won't just be floating where they last were" },
-#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -2387,9 +2383,7 @@ struct Z_Construct_UFunction_AMultiplayerGun_GetOwningPlayerCast_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Functions" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This can return nullptr so check that it's valid when using, requires using MultiplayerCharacter class" },
-#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
@@ -3253,9 +3247,7 @@ struct Z_Construct_UFunction_AMultiplayerGun_HolsterWeapon_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Functions" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Set IsHolstering to false to un holster" },
-#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_IsHolstering_SetBit(void* Obj);
@@ -5032,9 +5024,7 @@ struct Z_Construct_UFunction_AMultiplayerGun_SetOwningPlayer_Statics
 		{ "ClampMin", "0" },
 		{ "CPP_Default_ReplicationMethod", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "For ReplicationMethod 0 = Not replicated, 1 = Server only, 2 = Multicast only, 3 = Both server and multicast, 4 = Server if client and multicast if host" },
-#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_NewOwningPlayer;
@@ -6123,33 +6113,25 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is only visible to the owning player" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GunSkeletalMesh_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is only visible to the owning player" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonGunStaticMesh_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is only visible to other players" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonGunSkeletalMesh_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is only visible to other players" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GripSceneComponent_MetaData[] = {
 		{ "Category", "Components" },
@@ -6159,9 +6141,7 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UseSkeletalMesh_MetaData[] = {
 		{ "Category", "Components" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This needs to be changed in C++" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WeaponName_MetaData[] = {
 		{ "Category", "Weapon Name" },
@@ -6170,23 +6150,17 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WasPickedupBeginPlay_MetaData[] = {
 		{ "Category", "Variables" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only set this variable if you are placing the gun in the level, do not set this at runtime" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ShouldDivideMovementSpeedPenalty_MetaData[] = {
 		{ "Category", "Movement" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If true movement speed is divided by the movement speed penalty instead of subtracted" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ShouldDivideSprintSpeedPenalty_MetaData[] = {
 		{ "Category", "Movement" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If true movement speed is divided by the movement speed penalty instead of subtracted" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MovementSpeedPenalty_MetaData[] = {
 		{ "Category", "Movement" },
@@ -6200,40 +6174,30 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "Category", "Ammo" },
 		{ "ClampMin", "-2" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "The amount of time it takes to refill the magazine, 0 = instant, -1 = time for player animation to finish, -2 = time for gun animation to finish, if you have animation montages assigned time will be based on the animation montage" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReloadSpeed1_MetaData[] = {
 		{ "Category", "Ammo" },
 		{ "ClampMin", "-2" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "The amount of time it takes to finish reloading after the magazine was refilled, 0 = instant, -1 = time for player animation to finish, -2 = time for gun animation to finish, if you have animation montages assigned time will be based on the animation montage" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FireMode_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ClampMax", "3" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "0 = Semi-Auto, 1 = Full-Auto, 2 = Burst, 3 = Continuous, continuous fire would be for something like a flamethrower that is constantly firing so for example sound isn't played when damage is applied it's looped until you stop firing, if this is true it is recommended to set UseProjectile to false and BulletCasingToSpawn to none" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UseBoxCollisionForDamage_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This would be useful for something like a flamethrower that has an area of effect rather than having the player hit only what is in the center of the screen, does not apply if UseProjectile = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_IsShotgun_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Does not work with projectiles" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ShotgunAmountOfPellets_MetaData[] = {
 		{ "Category", "Firing" },
@@ -6253,23 +6217,17 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "ClampMax", "3" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "0 = no, 1 = fire location is at FireSceneComponent, 2 = fire rotation is based on FireSceneComponent, 3 = fire location and rotation is at FireSceneComponent" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BulletSpawnLocationOffset_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "X axis is to the left and right, Y is forward and backword, and Z is up and down" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UseAimingSpreadMultiplier_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Overrides aiming spread variables" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpreadAimingMultiplier_MetaData[] = {
 		{ "Category", "Firing" },
@@ -6310,30 +6268,22 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AutomaticallyAddPreDeterminedSpread_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Spread is pre determined so it can replicate properly" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PreDeterminedSpread_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If AutomaticallyAddPreDeterminedSpread = true 15 values will automatically be added, if you want to add your own you can manually do it here, setting this manually will override the min and max spread variables, only set the X and Y axes Z or 'yaw' does nothing" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PreDeterminedAimingSpread_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If AutomaticallyAddPreDeterminedSpread = true 15 values will automatically be added, if you want to add your own you can manually do it here, setting this manually will override the min and max spread variables, only set the X and Y axes Z or 'yaw' does nothing" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PreDeterminedAimingSpreadWithMultiplier_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If AutomaticallyAddPreDeterminedSpread = true 15 values will automatically be added, if you want to add your own you can manually do it here, setting this manually will override the min and max spread variables, only set the X and Y axes Z or 'yaw' does nothing" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PreDeterminedSpreadIndex_MetaData[] = {
 		{ "Category", "Firing" },
@@ -6350,24 +6300,18 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HasChargeUp_MetaData[] = {
 		{ "Category", "Chargeup" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If true there will be a chargeup before the gun can fire" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HoldTriggerDuringChargeUp_MetaData[] = {
 		{ "Category", "Chargeup" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If true then releasing the trigger during the chargeup will cancel firing" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ChargeUpTime_MetaData[] = {
 		{ "Category", "Chargeup" },
 		{ "ClampMin", "0.000000" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "The amount of time it takes to chargeup" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CurrentChargeUpProgress_MetaData[] = {
 		{ "Category", "Chargeup" },
@@ -6385,9 +6329,7 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnChargeUpParticleAttached_MetaData[] = {
 		{ "Category", "Chargeup" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If this is true then the muzzle flash will move with the gun instead of staying in the same spot" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DestroyChargeUpParticleWhenChargeUpCanceled_MetaData[] = {
 		{ "Category", "Chargeup" },
@@ -6396,18 +6338,14 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DoesOverheat_MetaData[] = {
 		{ "Category", "Overheating" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if FireMode = 1 or 3, if this is true firing will make it overheat instead of using ammo" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ProhibitFiringWhileCoolingDown_MetaData[] = {
 		{ "Category", "Overheating" },
 		{ "ClampMax", "2" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "0 = can fire while cooling down, 1 = can't fire while cooling down if max heat is reached, 2 = can't fire while cooling down no matter what" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReachedMaxHeat_MetaData[] = {
 		{ "Category", "Overheating" },
@@ -6442,9 +6380,7 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "ClampMax", "1.000000" },
 		{ "ClampMin", "0.000000" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is the minimum input for weapon sway for example how slow you can move your mouse and still have sway or how far you move the thumbstick on a controller" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ShouldHaveHorizontalWeaponSway_MetaData[] = {
 		{ "Category", "Weapon Sway" },
@@ -6459,16 +6395,12 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "ClampMax", "2" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "0 = Yes, 1 = Use both location and rotation, 2 = Use location" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HorizontalWeaponSwayOppositeDirection_MetaData[] = {
 		{ "Category", "Weapon Sway" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If true the weapon will sway in the opposite direction of where the player is looking" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaxHorzontalWeaponSwayRotation_MetaData[] = {
 		{ "Category", "Weapon Sway" },
@@ -6485,16 +6417,12 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "ClampMax", "2" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "0 = Yes, 1 = Use both location and rotation, 2 = Use location, NOTE: For the default arms mesh DO NOT use rotation for becuase the origin point is way too low, instead use a model with the origin point in the correct position" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_VerticalWeaponSwayOppositeDirection_MetaData[] = {
 		{ "Category", "Weapon Sway" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If true the weapon will sway in the opposite direction of where the player is looking" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaxVerticalWeaponSwayRotation_MetaData[] = {
 		{ "Category", "Weapon Sway" },
@@ -6510,39 +6438,29 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "Category", "Weapon Sway" },
 		{ "ClampMin", "0.000000" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Lower numbers make it slower but 0 makes it instant" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_VerticalWeaponSwaySpeed_MetaData[] = {
 		{ "Category", "Weapon Sway" },
 		{ "ClampMin", "0.000000" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Lower numbers make it slower but 0 makes it instant" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WeaponSwitchTime_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ClampMin", "0.000000" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If set to 0 it will just use the animation length, if this is not 0 it will use this to determine how long it takes to switch off of and onto this weapon, if you have animation montages assigned time will be based on the animation montage" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WeaponSwitchAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WeaponSwitchAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ResetArmsAnimationAfterWeaponSwitch_MetaData[] = {
 		{ "Category", "Animations" },
@@ -6551,16 +6469,12 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonWeaponSwitchAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonWeaponSwitchAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UseTwoWeaponSwitchAnimations_MetaData[] = {
 		{ "Category", "Animations" },
@@ -6569,86 +6483,62 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WeaponSwitchAnimation1_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WeaponSwitchAnimation1Montage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonWeaponSwitchAnimation1_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonWeaponSwitchAnimation1Montage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SwitchToGunAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Played when switching to this gun, only applies if you are using a skeletal mesh for your gun" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SwitchToGunAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Played when switching to this gun, only applies if you are using a skeletal mesh for your gun" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SwitchOffGunAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Played when switching to another gun, only applies if you are using a skeletal mesh for your gun" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SwitchOffGunAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Played when switching to another gun, only applies if you are using a skeletal mesh for your gun" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HolsterWeaponGunAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the gun's mesh component" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HolsterWeaponGunAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the gun's mesh component" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HolsterWeaponAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HolsterWeaponAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ResetArmsAnimationAfterHolster_MetaData[] = {
 		{ "Category", "Animations" },
@@ -6657,44 +6547,32 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HolsterWeaponThirdPersonAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's mesh component" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HolsterWeaponThirdPersonAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's mesh component" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UnHolsterWeaponGunAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the gun's mesh component" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UnHolsterWeaponGunAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the gun's mesh component" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UnHolsterWeaponAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UnHolsterWeaponAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ResetArmsAnimationAfterUnHolster_MetaData[] = {
 		{ "Category", "Animations" },
@@ -6703,30 +6581,22 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UnHolsterWeaponThirdPersonAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's mesh component" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UnHolsterWeaponThirdPersonAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's mesh component" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReloadAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReloadAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ResetArmsAnimationAfterReload_MetaData[] = {
 		{ "Category", "Animations" },
@@ -6739,44 +6609,32 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReloadEmptyAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms when the gun is emptied" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReloadEmptyAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms when the gun is emptied" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonReloadAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's mesh component" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonReloadAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's mesh component" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonReloadEmptyAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's mesh component when the gun is emptied" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonReloadEmptyAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's mesh component when the gun is emptied" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UseTwoReloadAnimations_MetaData[] = {
 		{ "Category", "Animations" },
@@ -6785,30 +6643,22 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReloadAnimation1_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms if UseTwoReloadAnimations = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReloadAnimation1Montage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms if UseTwoReloadAnimations = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReloadEmptyAnimation1_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms when the gun is emptied if UseTwoReloadAnimations = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReloadEmptyAnimation1Montage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's arms when the gun is emptied if UseTwoReloadAnimations = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UseTwoThirdPersonReloadAnimations_MetaData[] = {
 		{ "Category", "Animations" },
@@ -6817,65 +6667,47 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonReloadAnimation1_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's mesh component if UseTwoReloadAnimations = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonReloadAnimation1Montage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's mesh component if UseTwoReloadAnimations = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonReloadEmptyAnimation1_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's mesh component when the gun is emptied if UseTwoReloadAnimations = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonReloadEmptyAnimation1Montage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This plays on the character's mesh component when the gun is emptied if UseTwoReloadAnimations = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReloadGunAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if you are using a skeletal mesh for your gun" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReloadGunAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if you are using a skeletal mesh for your gun" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReloadEmptyGunAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Plays when the gun is emptied, only applies if you are using a skeletal mesh for your gun" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReloadEmptyGunAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Plays when the gun is emptied, only applies if you are using a skeletal mesh for your gun" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SprintAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Clear this if you want to set the animation in the animation blueprint or if you just don't want an animation, this plays on the player character" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LoopSprintAnimation_MetaData[] = {
 		{ "Category", "Animations" },
@@ -6892,9 +6724,7 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UnSprintAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Clear this if you want to set the animation in the animation blueprint or if you just don't want an animation, this plays on the player character" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SetDefaultSpeedAfterAnimation_MetaData[] = {
 		{ "Category", "Animations" },
@@ -6903,16 +6733,12 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonSprintAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Clear this if you want to set the animation in the animation blueprint or if you just don't want an animation, this plays on the player character" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonUnSprintAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Clear this if you want to set the animation in the animation blueprint or if you just don't want an animation, this plays on the player character" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LoopThirdPersonSprintAnimation_MetaData[] = {
 		{ "Category", "Animations" },
@@ -6926,17 +6752,13 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is where the muzzle flash will be" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonFireSceneComponent_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is where the muzzle flash will be for other players" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BulletCasingSceneComponent_MetaData[] = {
 		{ "Category", "Components" },
@@ -6952,17 +6774,13 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This only matters if UseBoxCollisionForDamage = true, rescale this instead of the box collision" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DamageBoxCollision_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This only matters if UseBoxCollisionForDamage = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OwningPlayer_MetaData[] = {
 		{ "Category", "Variables" },
@@ -6974,13 +6792,9 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CanShoot_MetaData[] = {
 		{ "Category", "Variables" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// This is only used to control fire rate, to control if the player can fire set can shoot in the player character class\n" },
-#endif
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This is only used to control fire rate, to control if the player can fire set can shoot in the player character class" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AmmoInMagazine_MetaData[] = {
 		{ "Category", "Ammo" },
@@ -7005,26 +6819,20 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UseSharedCalibers_MetaData[] = {
 		{ "Category", "Ammo" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Whether to use reserve ammo specific to this gun or use calibers shared by other guns that are chambered in the same caliber" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CaliberToUse_MetaData[] = {
 		{ "Category", "Ammo" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This will use the index of the AllSharedCalibers variable on the player character starting at 0, only applies if UseSharedCalibers = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InfiniteAmmo_MetaData[] = {
 		{ "Category", "Ammo" },
 		{ "ClampMax", "2" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "0 = limited ammo, 1 = infinite reserve ammo, 2 = infinite ammo, this will override DoesOverheat" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BulletCasingToSpawn_MetaData[] = {
 		{ "Category", "Ammo" },
@@ -7046,17 +6854,13 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "Category", "Firing" },
 		{ "ClampMin", "0.001000" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "The amount of time between shots" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ContinuousFireDamageRate_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ClampMin", "0.000000" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "The amount of time between applying damage for continuous fire" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AmountOfShotsForBurst_MetaData[] = {
 		{ "Category", "Firing" },
@@ -7072,31 +6876,23 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "Category", "Firing" },
 		{ "ClampMin", "0.000000" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if UseProjectile = false" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LaunchPhysicsObjects_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "For this to replicate you need to replicate movement for the actor you're launching, for explosives this only applies to projectiles" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LaunchObjectStrength_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ClampMin", "0.001000" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if LaunchPhysicsObjects = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LaunchObjectVelocityChange_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if LaunchPhysicsObjects = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_IsExplosive_MetaData[] = {
 		{ "Category", "Firing" },
@@ -7109,9 +6905,7 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ExplosionIgnoredActors_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Set this at runtime rather than setting the default value" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ExplosionIgnoredClasses_MetaData[] = {
 		{ "Category", "Firing" },
@@ -7120,9 +6914,7 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UseProjectile_MetaData[] = {
 		{ "Category", "Projectile" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Does not work with shotguns" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ProjectileToSpawn_MetaData[] = {
 		{ "Category", "Projectile" },
@@ -7140,38 +6932,28 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "Category", "Projectile" },
 		{ "ClampMin", "0.000000" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This will determine the amount of time before projectile despawn if they don't hit anything, for explosives this will detonate them, 0 = disabled, only applies if UseProjectile = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CollisionChannel_MetaData[] = {
 		{ "Category", "Damage" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This will also be the collision channel for explosives" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AdditionalActorsToIgnore_MetaData[] = {
 		{ "Category", "Damage" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "The owner and the gun are already ignored, if you want to ignore more actors set this at runtime, only applies if UseProjectile = false" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultDamage_MetaData[] = {
 		{ "Category", "Damage" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Damage applied to everything that has either no physical material or one not included in damage variable, for explosives this will serve as the base damage" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Damage_MetaData[] = {
 		{ "Category", "Damage" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Add pysical materials like the head to apply different damage, if left blank it will just apply default damage" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ExplosiveDamageRadius_MetaData[] = {
 		{ "Category", "Damage" },
@@ -7187,30 +6969,22 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "ClampMax", "2" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "0 = just apply damage, 1 = apply damage and execute ExecuteHitFunction(), 2 = just execute ExecuteHitFunction(), to use this override the ExecuteHitFunction() or add event ExecuteHitFunction, for projectiles you will need to define this function in the projectile, this function only runs on server" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DamageFalloffMultiplierAtRange_MetaData[] = {
 		{ "Category", "Damage" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "The first float is the distance traveled and the second float is the damage multiplier at that range, values above 1 do more damage, does not apply to explosives" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InterpolateDamageBetweenRanges_MetaData[] = {
 		{ "Category", "Damage" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if DamageFalloffMultiplierAtRange has 2 or more values, if the target distance is in between 2 distances in the DamageFalloffMultiplierAtRange variable the damage will also be in between the 2 damages in the DamageFalloffMultiplierAtRange variable" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PrintDistanceTraveled_MetaData[] = {
 		{ "Category", "Damage" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This will print a string showing how far the bullet went" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UsingThirdPerson_MetaData[] = {
 		{ "Category", "Variables" },
@@ -7227,67 +7001,49 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "Category", "Weapon" },
 		{ "ClampMin", "0.000000" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Set to 0 to disable" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ManuallySetGunLocation_MetaData[] = {
 		{ "Category", "Gun Location" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If false the Grip scene component will be used to set gun location, this does not apply to the third person mesh, setting this to false will require a socket name" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SnapToSocket_MetaData[] = {
 		{ "Category", "Gun Location" },
 		{ "ClampMax", "2" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Setting this to 0 will make the gun not use a socket and instead just use relative location and rotation, setting this to 1 will snap to socket without scale, and 2 will snap to socket including scale, if ManuallySetGunLocation is false this will act as though it is 0" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SocketName_MetaData[] = {
 		{ "Category", "Gun Location" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If SnapToSocket = 0 then it will just attach to a socket if you set this variable, this is required to be filled in if ManuallySetGunLocation is false" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonSocketName_MetaData[] = {
 		{ "Category", "Gun Location" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If SnapToSocket = 0 then it will just attach to a socket if you set this variable" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GunRelativeLocation_MetaData[] = {
 		{ "Category", "Gun Location" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if SnapToSocket = 0 and is relative to its parent component (usually the player character's hands)" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GunRelativeRotation_MetaData[] = {
 		{ "Category", "Gun Location" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if SnapToSocket = 0 and is relative to its parent component (usually the player character's hands)" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonGunRelativeLocation_MetaData[] = {
 		{ "Category", "Gun Location" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if SnapToSocket = 0 and is relative to its parent component (usually the player character's hands), usually you can set this to the same as for first person" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonGunRelativeRotation_MetaData[] = {
 		{ "Category", "Gun Location" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if SnapToSocket = 0 and is relative to its parent component (usually the player character's hands), usually you can set this to the same as for first person" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PlayerArmsRelativeLocation_MetaData[] = {
 		{ "Category", "Gun Location" },
@@ -7300,23 +7056,17 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultHitEffect_MetaData[] = {
 		{ "Category", "Hit Effects" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This will also serve as the explosion for explosives" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HitEffectScale_MetaData[] = {
 		{ "Category", "Hit Effects" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "For explosives this will also be the explosion scale" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HitEffects_MetaData[] = {
 		{ "Category", "Hit Effects" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Add pysical materials like the head to spawn different particle effects, if left blank it will just use the default hit effect" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MuzzleFlash_MetaData[] = {
 		{ "Category", "Firing" },
@@ -7325,23 +7075,17 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnMuzzleFlashAttached_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If this is true then the muzzle flash will move with the gun instead of staying in the same spot" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReplicateMuzzleFlashLocation_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If this is false other players will see the muzzle flash at the ThirdPersonFireSceneComponent, if this is true other players will see the muzzle flash in the same location as the player firing, this also applies to the charge up particle if you have the gun charge up before firing" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UseFirstPersonRotationForThirdPersonMuzzleFlash_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This also applies to the charge up particle if you have the gun charge up before firing" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnedContinuousMuzzleFlash_MetaData[] = {
 		{ "Category", "Firing" },
@@ -7353,47 +7097,35 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "ClampMax", "2" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "0 = no, 1 = yes, 2 = indicator for overheating if DoesOverheat = true, will be set to 1 if DoesOverheat = false" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AmountOfShotsToSpawnSmoke_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "only applies if SpawnSmokeEffectWhenShooting = 1" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AmountOfTimeToCancelSmoke_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ClampMin", "0.001000" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Amount of time to not shoot to cancel spawning smoke" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DestroySmokeEffectWhenNotShooting_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This would be used if you have a particle effect that loops and will not auto destroy" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DestroySmokeSoundWhenNotShooting_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This would be used if you have a sound effect that loops and will not auto destroy" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TimeToDestroySmokeWhenNotShooting_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ClampMin", "0.001000" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Amount of time to not shoot after spawning the smoke to destroy it, set to 0 to disable, this would be used if you have a particle effect that loops and will not auto destroy, overrides TimeToDestroySmokeSoundWhenNotShooting" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TimeToDestroySmokeSoundWhenNotShooting_MetaData[] = {
 		{ "Category", "Firing" },
@@ -7405,9 +7137,7 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "ClampMax", "1" },
 		{ "ClampMin", "0.001000" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Between 0 and 1, only applies if SpawnSmokeEffectWhenShooting = 2" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SmokeEffectToSpawn_MetaData[] = {
 		{ "Category", "Firing" },
@@ -7421,9 +7151,7 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SmokeSoundToSpawn_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if SpawnSmokeEffectWhenShooting is not 0, clear to not have a sound" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnedSmokeSound_MetaData[] = {
 		{ "Category", "Firing" },
@@ -7438,30 +7166,22 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "Category", "Firing" },
 		{ "ClampMin", "0.000000" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if BulletHitMode equals 1 or 2, and works better for projectiles, set to 0 to disable" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FireControllerVibration_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Clear this to disable" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FireControllerVibrationTag_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Used to cancel vibration with continuous fire" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BulletHitControllerVibration_MetaData[] = {
 		{ "Category", "Firing" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This also applies to explosives, clear this to disable" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BulletHitControllerVibrationAttenuation_MetaData[] = {
 		{ "Category", "Firing" },
@@ -7478,23 +7198,17 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnFireSoundAttached_MetaData[] = {
 		{ "Category", "Sound" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If this is true then the fire sound will move with the gun instead of staying in the same spot" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnFireSound2DForOwner_MetaData[] = {
 		{ "Category", "Sound" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This will only affect the player firing the gun, this is to avoid the sound being louder in one ear" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnFireSound2DForOwnerThirdPerson_MetaData[] = {
 		{ "Category", "Sound" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This will only affect the player firing the gun, this is to avoid the sound being louder in one ear" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FireSoundAttenuationOverride_MetaData[] = {
 		{ "Category", "Sound" },
@@ -7516,30 +7230,22 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnChargeUpSoundAttached_MetaData[] = {
 		{ "Category", "Sound" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If this is true then the fire sound will move with the gun instead of staying in the same spot" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnChargeUpSound2DForOwner_MetaData[] = {
 		{ "Category", "Sound" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This will only affect the player firing the gun, this is to avoid the sound being louder in one ear" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnChargeUpSound2DForOwnerThirdPerson_MetaData[] = {
 		{ "Category", "Sound" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This will only affect the player firing the gun, this is to avoid the sound being louder in one ear" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DestroyChargeUpSoundWhenChargeUpCanceled_MetaData[] = {
 		{ "Category", "Sound" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Does not apply if SpawnChargeUpSoundAttached = false" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ChargeUpSoundAttenuationOverride_MetaData[] = {
 		{ "Category", "Sound" },
@@ -7561,23 +7267,17 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BulletWhizzingSoundVolumeBasedOnSpeed_MetaData[] = {
 		{ "Category", "Sound" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies to projectiles" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultBulletHitSound_MetaData[] = {
 		{ "Category", "Hit Effects" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This will also serve as the explosion sound for explosives" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BulletHitSounds_MetaData[] = {
 		{ "Category", "Hit Effects" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Using the physical material allows you to have a different sound for each surface" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultBulletHitDecal_MetaData[] = {
 		{ "Category", "Hit Effects" },
@@ -7586,9 +7286,7 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BulletHitDecals_MetaData[] = {
 		{ "Category", "Hit Effects" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Using the physical material allows you to have a different decal for each surface" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BulletHitDecalSize_MetaData[] = {
 		{ "Category", "Hit Effects" },
@@ -7599,32 +7297,24 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "ClampMax", "2" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "0 = hit actor classes, 1 = hit physical materials, 2 = prioritize physical material but fallback on actor class, only 0 works for explosives and box collision damage" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HitMarkerActorSounds_MetaData[] = {
 		{ "Category", "Hit Effects" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if UseActorClassesForHitMarkers = true" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HitMarkerSurfaceSounds_MetaData[] = {
 		{ "Category", "Hit Effects" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Using the physical material allows you to have a different sound for each surface, only applies if UseActorClassesForHitMarkers = false" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UseFireArmsAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ClampMax", "2" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If set to 0 it will play the animation montage, if set to 1 it will play the animation, if set to 2 it will play both" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FireArmsAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
@@ -7637,9 +7327,7 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FireGunAnimation_MetaData[] = {
 		{ "Category", "Animations" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if you are using a skeletal mesh for your gun" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ChargeUpArmsAnimationMontage_MetaData[] = {
 		{ "Category", "Animations" },
@@ -7658,37 +7346,27 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ "ClampMax", "3" },
 		{ "ClampMin", "0" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "0 = will use ADS if player character allows, 1 = will use zoom if player character allows, 2 = will use ADS overriding variable in player character, 3 = will use zoom overriding variable in player character" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SwitchPerspectiveWhenAiming_MetaData[] = {
 		{ "Category", "Aiming" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "There is an option to override this on the player character, this will still apply even if the player doesn't have the option to switch perspective" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DivideAimingFOV_MetaData[] = {
 		{ "Category", "Aiming" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "If false aiming will subtract from current FOV, if true aiming will divide from current FOV" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ADSFOV_MetaData[] = {
 		{ "Category", "Aiming" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is how much to subtract or divide from current FOV" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ZoomFOV_MetaData[] = {
 		{ "Category", "Aiming" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is how much to subtract or divide from current FOV" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TimeToADS_MetaData[] = {
 		{ "Category", "Aiming" },
@@ -7735,37 +7413,27 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CanCrumbleDestructibleMeshes_MetaData[] = {
 		{ "Category", "Chaos Destruction" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Can cause stutters when firing especially on the client" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CrumbleDestructibleMeshesWithEveryShotgunPellet_MetaData[] = {
 		{ "Category", "Chaos Destruction" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if IsShotgun = true, having this equal false will crumble destructibles at the average hit location of each pellet, setting this to true can cause stutters when firing especially on the client" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DestructionSphereSize_MetaData[] = {
 		{ "Category", "Chaos Destruction" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Also set this for explosives, destruction sphere will use this not damage radius" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DestructionSphereToSpawn_MetaData[] = {
 		{ "Category", "Chaos Destruction" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "This is used to destroy destructible meshes, make this either FS_MasterField or a child of it" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ShowBulletPath_MetaData[] = {
 		{ "Category", "Debugging" },
 		{ "ModuleRelativePath", "Public/MultiplayerGun.h" },
-#if !UE_BUILD_SHIPPING
 		{ "Tooltip", "Only applies if UseProjectile = false, if true a debug line will be drawn when firing to show where the line trace goes" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BulletPathColor_MetaData[] = {
 		{ "Category", "Debugging" },
@@ -8213,7 +7881,7 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_AMultiplayerGun_AddPredeterminedSpread, "AddPredeterminedSpread" }, // 2730258481
 		{ &Z_Construct_UFunction_AMultiplayerGun_AddRecoil_BP, "AddRecoil_BP" }, // 352764097
-		{ &Z_Construct_UFunction_AMultiplayerGun_ApplyPerspective, "ApplyPerspective" }, // 2437117215
+		{ &Z_Construct_UFunction_AMultiplayerGun_ApplyPerspective, "ApplyPerspective" }, // 3806751337
 		{ &Z_Construct_UFunction_AMultiplayerGun_ApplyPerspective_BP, "ApplyPerspective_BP" }, // 645246866
 		{ &Z_Construct_UFunction_AMultiplayerGun_CallBulletHitDelegate, "CallBulletHitDelegate" }, // 2526698964
 		{ &Z_Construct_UFunction_AMultiplayerGun_CancelChargeUp, "CancelChargeUp" }, // 4155403434
@@ -8224,7 +7892,7 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ &Z_Construct_UFunction_AMultiplayerGun_ChargeUp1, "ChargeUp1" }, // 1104877037
 		{ &Z_Construct_UFunction_AMultiplayerGun_ChargeUp_BP, "ChargeUp_BP" }, // 500331106
 		{ &Z_Construct_UFunction_AMultiplayerGun_CheckBulletCasingLimit, "CheckBulletCasingLimit" }, // 2882867566
-		{ &Z_Construct_UFunction_AMultiplayerGun_CheckForOwner, "CheckForOwner" }, // 3941147268
+		{ &Z_Construct_UFunction_AMultiplayerGun_CheckForOwner, "CheckForOwner" }, // 3571210799
 		{ &Z_Construct_UFunction_AMultiplayerGun_ClientFire, "ClientFire" }, // 4191027175
 		{ &Z_Construct_UFunction_AMultiplayerGun_ClientFire_BP, "ClientFire_BP" }, // 3258375683
 		{ &Z_Construct_UFunction_AMultiplayerGun_ContinuousFire, "ContinuousFire" }, // 2087044903
@@ -8265,7 +7933,7 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ &Z_Construct_UFunction_AMultiplayerGun_GetMaxHeat, "GetMaxHeat" }, // 1775318102
 		{ &Z_Construct_UFunction_AMultiplayerGun_GetMaxReserveAmmo, "GetMaxReserveAmmo" }, // 3953796515
 		{ &Z_Construct_UFunction_AMultiplayerGun_GetOwningPlayer, "GetOwningPlayer" }, // 3675164470
-		{ &Z_Construct_UFunction_AMultiplayerGun_GetOwningPlayerCast, "GetOwningPlayerCast" }, // 4221037619
+		{ &Z_Construct_UFunction_AMultiplayerGun_GetOwningPlayerCast, "GetOwningPlayerCast" }, // 151099360
 		{ &Z_Construct_UFunction_AMultiplayerGun_GetPlayerArmsRelativeLocation, "GetPlayerArmsRelativeLocation" }, // 1798500332
 		{ &Z_Construct_UFunction_AMultiplayerGun_GetPlayerArmsRelativeRotation, "GetPlayerArmsRelativeRotation" }, // 2224031031
 		{ &Z_Construct_UFunction_AMultiplayerGun_GetReloadGunSound, "GetReloadGunSound" }, // 3517788741
@@ -8285,7 +7953,7 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ &Z_Construct_UFunction_AMultiplayerGun_GetZoomArmsLocation, "GetZoomArmsLocation" }, // 1662274593
 		{ &Z_Construct_UFunction_AMultiplayerGun_GetZoomArmsRotation, "GetZoomArmsRotation" }, // 3654947262
 		{ &Z_Construct_UFunction_AMultiplayerGun_GetZoomFOV, "GetZoomFOV" }, // 4282680857
-		{ &Z_Construct_UFunction_AMultiplayerGun_HolsterWeapon, "HolsterWeapon" }, // 3972807804
+		{ &Z_Construct_UFunction_AMultiplayerGun_HolsterWeapon, "HolsterWeapon" }, // 1880367031
 		{ &Z_Construct_UFunction_AMultiplayerGun_HolsterWeapon_BP, "HolsterWeapon_BP" }, // 1213723286
 		{ &Z_Construct_UFunction_AMultiplayerGun_MulticastReload, "MulticastReload" }, // 2952476806
 		{ &Z_Construct_UFunction_AMultiplayerGun_MulticastSetOwningPlayer, "MulticastSetOwningPlayer" }, // 1452889208
@@ -8326,7 +7994,7 @@ struct Z_Construct_UClass_AMultiplayerGun_Statics
 		{ &Z_Construct_UFunction_AMultiplayerGun_SetInfiniteAmmo, "SetInfiniteAmmo" }, // 3951831440
 		{ &Z_Construct_UFunction_AMultiplayerGun_SetIsExplosive, "SetIsExplosive" }, // 2027114648
 		{ &Z_Construct_UFunction_AMultiplayerGun_SetManuallySetGunLocation, "SetManuallySetGunLocation" }, // 3120185406
-		{ &Z_Construct_UFunction_AMultiplayerGun_SetOwningPlayer, "SetOwningPlayer" }, // 2461096667
+		{ &Z_Construct_UFunction_AMultiplayerGun_SetOwningPlayer, "SetOwningPlayer" }, // 726103515
 		{ &Z_Construct_UFunction_AMultiplayerGun_SetPickupCollisionEnabled, "SetPickupCollisionEnabled" }, // 4020565095
 		{ &Z_Construct_UFunction_AMultiplayerGun_SetReloadGunSound, "SetReloadGunSound" }, // 1055869463
 		{ &Z_Construct_UFunction_AMultiplayerGun_SetSocketName, "SetSocketName" }, // 490335757
@@ -9316,7 +8984,11 @@ AMultiplayerGun::~AMultiplayerGun() {}
 // End Class AMultiplayerGun
 
 // Begin Registration
+<<<<<<< HEAD
 struct Z_CompiledInDeferFile_FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_Statics
+=======
+struct Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_Statics
+>>>>>>> parent of f0bfb2a (SLN)
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
 		{ EAimSwitchPerspectiveType_StaticEnum, TEXT("EAimSwitchPerspectiveType"), &Z_Registration_Info_UEnum_EAimSwitchPerspectiveType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1846365563U) },
@@ -9325,12 +8997,19 @@ struct Z_CompiledInDeferFile_FID_futurelandseres_FutureLandSourceEditor_Plugins_
 		{ FGunHitEffectsReplication::StaticStruct, Z_Construct_UScriptStruct_FGunHitEffectsReplication_Statics::NewStructOps, TEXT("GunHitEffectsReplication"), &Z_Registration_Info_UScriptStruct_GunHitEffectsReplication, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGunHitEffectsReplication), 1684226226U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMultiplayerGun, AMultiplayerGun::StaticClass, TEXT("AMultiplayerGun"), &Z_Registration_Info_UClass_AMultiplayerGun, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMultiplayerGun), 78683915U) },
+		{ Z_Construct_UClass_AMultiplayerGun, AMultiplayerGun::StaticClass, TEXT("AMultiplayerGun"), &Z_Registration_Info_UClass_AMultiplayerGun, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMultiplayerGun), 719663402U) },
 	};
 };
+<<<<<<< HEAD
 static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_2970998173(TEXT("/Script/MultiplayerFPS"),
 	Z_CompiledInDeferFile_FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_Statics::ClassInfo),
 	Z_CompiledInDeferFile_FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_Statics::ScriptStructInfo),
 	Z_CompiledInDeferFile_FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_Statics::EnumInfo));
+=======
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_3795798271(TEXT("/Script/MultiplayerFPS"),
+	Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_Statics::ScriptStructInfo),
+	Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_Statics::EnumInfo));
+>>>>>>> parent of f0bfb2a (SLN)
 // End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

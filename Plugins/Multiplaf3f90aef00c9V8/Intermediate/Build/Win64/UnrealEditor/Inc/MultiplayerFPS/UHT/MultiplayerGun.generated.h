@@ -25,18 +25,30 @@ class USoundBase;
 #endif
 #define MULTIPLAYERFPS_MultiplayerGun_generated_h
 
+<<<<<<< HEAD
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_17_DELEGATE \
 MULTIPLAYERFPS_API void FOnBulletHit_DelegateWrapper(const FMulticastScriptDelegate& OnBulletHit, AActor* ActorHit, UPhysicalMaterial* HitSurface);
 
 
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_38_GENERATED_BODY \
+=======
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_17_DELEGATE \
+MULTIPLAYERFPS_API void FOnBulletHit_DelegateWrapper(const FMulticastScriptDelegate& OnBulletHit, AActor* ActorHit, UPhysicalMaterial* HitSurface);
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_38_GENERATED_BODY \
+>>>>>>> parent of f0bfb2a (SLN)
 	friend struct Z_Construct_UScriptStruct_FGunHitEffectsReplication_Statics; \
 	MULTIPLAYERFPS_API static class UScriptStruct* StaticStruct();
 
 
 template<> MULTIPLAYERFPS_API UScriptStruct* StaticStruct<struct FGunHitEffectsReplication>();
 
+<<<<<<< HEAD
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_61_RPC_WRAPPERS_NO_PURE_DECLS \
+=======
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_61_RPC_WRAPPERS_NO_PURE_DECLS \
+>>>>>>> parent of f0bfb2a (SLN)
 	virtual void MulticastReload_Implementation(); \
 	virtual void ServerReload_Implementation(); \
 	virtual void ServerStopFiring_Implementation(bool EvenCancelBurst); \
@@ -176,8 +188,13 @@ template<> MULTIPLAYERFPS_API UScriptStruct* StaticStruct<struct FGunHitEffectsR
 	DECLARE_FUNCTION(execGetGunMesh);
 
 
+<<<<<<< HEAD
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_61_CALLBACK_WRAPPERS
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_61_INCLASS_NO_PURE_DECLS \
+=======
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_61_CALLBACK_WRAPPERS
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_61_INCLASS_NO_PURE_DECLS \
+>>>>>>> parent of f0bfb2a (SLN)
 private: \
 	static void StaticRegisterNativesAMultiplayerGun(); \
 	friend struct Z_Construct_UClass_AMultiplayerGun_Statics; \
@@ -206,7 +223,11 @@ public: \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
+<<<<<<< HEAD
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_61_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_61_ENHANCED_CONSTRUCTORS \
+>>>>>>> parent of f0bfb2a (SLN)
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AMultiplayerGun(AMultiplayerGun&&); \
@@ -218,6 +239,7 @@ public: \
 	NO_API virtual ~AMultiplayerGun();
 
 
+<<<<<<< HEAD
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_58_PROLOG
 #define FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_61_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
@@ -226,6 +248,16 @@ public: \
 	FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_61_CALLBACK_WRAPPERS \
 	FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_61_INCLASS_NO_PURE_DECLS \
 	FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h_61_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_58_PROLOG
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_61_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_61_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_61_CALLBACK_WRAPPERS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_61_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h_61_ENHANCED_CONSTRUCTORS \
+>>>>>>> parent of f0bfb2a (SLN)
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -233,7 +265,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MULTIPLAYERFPS_API UClass* StaticClass<class AMultiplayerGun>();
 
 #undef CURRENT_FILE_ID
+<<<<<<< HEAD
 #define CURRENT_FILE_ID FID_futurelandseres_FutureLandSourceEditor_Plugins_Multiplaf3f90aef00c9V8_Source_MultiplayerFPS_Public_MultiplayerGun_h
+=======
+#define CURRENT_FILE_ID FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MultiplayerFPS_Source_MultiplayerFPS_Public_MultiplayerGun_h
+>>>>>>> parent of f0bfb2a (SLN)
 
 
 #define FOREACH_ENUM_EAIMSWITCHPERSPECTIVETYPE(op) \
