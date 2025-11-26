@@ -1,0 +1,32 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\unrealeditor\\inc\\varest\\uht\\varestsubsystem.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealengine-5.5\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\varest\\definitions.varest.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\source\\varest\\public\\varestsubsystem.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\source\\varest\\public\\varestjsonobject.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\source\\varest\\public\\varestdefines.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\unrealeditor\\inc\\varest\\uht\\varestjsonobject.generated.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\source\\varest\\public\\varestjsonvalue.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\unrealeditor\\inc\\varest\\uht\\varestjsonvalue.generated.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\source\\varest\\public\\varestrequestjson.h",
+            "d:\\unrealengine-5.5\\engine\\source\\runtime\\online\\http\\public\\http.h",
+            "d:\\unrealengine-5.5\\engine\\source\\runtime\\online\\http\\public\\httpmodule.h",
+            "d:\\unrealengine-5.5\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttprequest.h",
+            "d:\\unrealengine-5.5\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpbase.h",
+            "d:\\unrealengine-5.5\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpresponse.h",
+            "d:\\unrealengine-5.5\\engine\\source\\runtime\\online\\http\\public\\platformhttp.h",
+            "d:\\unrealengine-5.5\\engine\\source\\runtime\\online\\http\\public\\windows\\windowsplatformhttp.h",
+            "d:\\unrealengine-5.5\\engine\\source\\runtime\\online\\http\\public\\genericplatform\\genericplatformhttp.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\source\\varest\\public\\varesttypes.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\unrealeditor\\inc\\varest\\uht\\varesttypes.generated.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\unrealeditor\\inc\\varest\\uht\\varestrequestjson.generated.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\unrealeditor\\inc\\varest\\uht\\varestsubsystem.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\unrealeditor\\inc\\varest\\uht\\varesttypes.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealengine-5.5\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\varest\\definitions.varest.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\source\\varest\\public\\varesttypes.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\unrealeditor\\inc\\varest\\uht\\varesttypes.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

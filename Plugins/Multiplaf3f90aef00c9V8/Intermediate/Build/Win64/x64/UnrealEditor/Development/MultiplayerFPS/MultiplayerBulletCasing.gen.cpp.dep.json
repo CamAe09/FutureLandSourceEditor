@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\multiplaf3f90aef00c9v8\\intermediate\\build\\win64\\unrealeditor\\inc\\multiplayerfps\\uht\\multiplayerbulletcasing.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealengine-5.5\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\multiplaf3f90aef00c9v8\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\multiplayerfps\\definitions.multiplayerfps.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\multiplaf3f90aef00c9v8\\source\\multiplayerfps\\public\\multiplayerbulletcasing.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\multiplaf3f90aef00c9v8\\intermediate\\build\\win64\\unrealeditor\\inc\\multiplayerfps\\uht\\multiplayerbulletcasing.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

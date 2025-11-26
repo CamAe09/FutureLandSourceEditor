@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\multiplaf3f90aef00c9v8\\intermediate\\build\\win64\\unrealeditor\\inc\\multiplayerfps\\uht\\multiplayergamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealengine-5.5\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\multiplaf3f90aef00c9v8\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\multiplayerfps\\definitions.multiplayerfps.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\multiplaf3f90aef00c9v8\\source\\multiplayerfps\\public\\multiplayergamemode.h",
+            "d:\\unrealengine-5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemode.h",
+            "d:\\unrealengine-5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\unrealengine-5.5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\unrealengine-5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\unrealengine-5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\unrealengine-5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemode.generated.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\multiplaf3f90aef00c9v8\\intermediate\\build\\win64\\unrealeditor\\inc\\multiplayerfps\\uht\\multiplayergamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

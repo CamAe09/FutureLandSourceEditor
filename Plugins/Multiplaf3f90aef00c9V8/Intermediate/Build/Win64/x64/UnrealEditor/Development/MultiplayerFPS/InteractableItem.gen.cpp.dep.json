@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\multiplaf3f90aef00c9v8\\intermediate\\build\\win64\\unrealeditor\\inc\\multiplayerfps\\uht\\interactableitem.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealengine-5.5\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\multiplaf3f90aef00c9v8\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\multiplayerfps\\definitions.multiplayerfps.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\multiplaf3f90aef00c9v8\\source\\multiplayerfps\\public\\interactableitem.h",
+            "d:\\unrealengine-5.5\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "d:\\unrealengine-5.5\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\unrealengine-5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "d:\\unrealengine-5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
+            "d:\\futurelandseres\\futurelandsourceeditor\\plugins\\multiplaf3f90aef00c9v8\\intermediate\\build\\win64\\unrealeditor\\inc\\multiplayerfps\\uht\\interactableitem.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
