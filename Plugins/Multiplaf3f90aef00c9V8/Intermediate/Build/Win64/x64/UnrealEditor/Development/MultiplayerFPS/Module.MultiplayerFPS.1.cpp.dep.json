@@ -3,7 +3,11 @@
     "Data": {
         "Source": "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\plugins\\multiplaf3f90aef00c9v8\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\multiplayerfps\\module.multiplayerfps.1.cpp",
         "ProvidedModule": "",
+<<<<<<< HEAD
         "PCH": "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\intermediate\\build\\win64\\x64\\futurelandgameeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+=======
+        "PCH": "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\intermediate\\build\\win64\\x64\\futurelandgameeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+>>>>>>> parent of ea849a9 (map stuff)
         "Includes": [
             "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\plugins\\multiplaf3f90aef00c9v8\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\multiplayerfps\\definitions.multiplayerfps.h",
             "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\plugins\\multiplaf3f90aef00c9v8\\intermediate\\build\\win64\\unrealeditor\\inc\\multiplayerfps\\uht\\interactableitem.gen.cpp",

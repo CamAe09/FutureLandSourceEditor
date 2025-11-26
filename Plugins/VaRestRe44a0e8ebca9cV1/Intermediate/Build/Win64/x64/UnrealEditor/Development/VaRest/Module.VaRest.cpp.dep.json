@@ -3,7 +3,11 @@
     "Data": {
         "Source": "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\varest\\module.varest.cpp",
         "ProvidedModule": "",
+<<<<<<< HEAD
         "PCH": "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\intermediate\\build\\win64\\x64\\futurelandgameeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+=======
+        "PCH": "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\intermediate\\build\\win64\\x64\\futurelandgameeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+>>>>>>> parent of ea849a9 (map stuff)
         "Includes": [
             "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\varest\\definitions.varest.h",
             "c:\\users\\camev\\documents\\unreal projects\\futurelandsourceeditor\\plugins\\varestre44a0e8ebca9cv1\\intermediate\\build\\win64\\unrealeditor\\inc\\varest\\uht\\varest.init.gen.cpp",

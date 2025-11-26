@@ -1,8 +1,15 @@
 "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Module.MultiplayerFPS.4.cpp"
+<<<<<<< HEAD
 /FI"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
 /FI"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Definitions.MultiplayerFPS.h"
 /Yu"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
 /Fp"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.pch"
+=======
+/FI"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Definitions.MultiplayerFPS.h"
+/Yu"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+>>>>>>> parent of ea849a9 (map stuff)
 /Fo"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Module.MultiplayerFPS.4.cpp.obj"
 /experimental:log "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Module.MultiplayerFPS.4.cpp.sarif"
 /sourceDependencies "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\Multiplaf3f90aef00c9V8\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiplayerFPS\Module.MultiplayerFPS.4.cpp.dep.json"

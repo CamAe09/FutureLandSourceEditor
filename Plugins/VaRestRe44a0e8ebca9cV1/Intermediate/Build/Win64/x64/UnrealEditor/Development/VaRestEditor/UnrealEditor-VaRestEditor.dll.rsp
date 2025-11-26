@@ -37,7 +37,11 @@
 /FUNCTIONPADMIN:6
 /NOIMPLIB
 /NATVIS:"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\RenderCore\RenderCore.natvis"
+<<<<<<< HEAD
 "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+=======
+"C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Intermediate\Build\Win64\x64\FutureLandGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+>>>>>>> parent of ea849a9 (map stuff)
 "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\Module.VaRestEditor.cpp.obj"
 "C:\Users\camev\Documents\Unreal Projects\FutureLandSourceEditor\Plugins\VaRestRe44a0e8ebca9cV1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VaRestEditor\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
